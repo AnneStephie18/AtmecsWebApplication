@@ -2,47 +2,51 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" >
  
-  <test name="FirefoxTest">
-
-<parameter name="browser" value="firefox" />
-
-<classes>
-
-<class name="com.atmecs.Selenium_MakeMyTrip.Base">
-
-</class>
-
-</classes>
-
+ <test name="test1">
+  <classes>
+<class name="com.atmecs.qa.testscripts.TestServicePage"></class>
+ </classes>
 </test>
 
-  <test name="ChromeTest">
-
-<parameter name="browser" value="chrome" />
-
-<classes>
-
-<class name="com.atmecs.Selenium_MakeMyTrip.Base">
-</class>
-
-</classes>
-
+ <test name="test2">
+ <classes>
+<class name="com.atmecs.qa.testscripts.TestDigitalLifePage"></class>
+ </classes>
 </test>
 
-
-
-<test name="InternetExplorerTest">
-
-<parameter name="browser" value="internetexplorer" />
-
-<classes>
-
-<class name="com.atmecs.Selenium_MakeMyTrip.Base">
-
-</class>
-
-</classes>
-
+<test name="test3">
+ <classes>
+<class name="com.atmecs.qa.testscripts.TestCloudServicesPage"></class>
+ </classes>
 </test>
-  
+
+<test name="test4">
+ <classes>
+<class name="com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage"></class>
+ </classes>
+</test>
+
+<test name="test5">
+ <classes>
+<class name="com.atmecs.qa.testscripts.TestMobileComputingPage"></class>
+ </classes>
+</test>  
+
+<test name="test6">
+ <classes>
+<class name="com.atmecs.qa.testscripts.TestProductEngineeringPage"></class>
+ </classes>
+</test>
+
+<test name="test7">
+ <classes>
+<class name="com.atmecs.qa.testscripts.TestQualityEngineeringPage"></class>
+ </classes>
+</test>
+
+<test name="test8">
+ <classes>
+<class name="com.atmecs.qa.testscripts.TestInfrastructureServicesPage"></class>
+ </classes>
+</test>
 </suite> 

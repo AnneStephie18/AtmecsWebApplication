@@ -1,12 +1,16 @@
 
 package com.atmecs.qa.constants;
-
+/**
+ * This class contains the path of the log,services,digital life,enterprise analytics,mobile computing,infrastructure services,product engineering,
+ * quality engineering,infrastructure services properties file,implicit wait,page load timeout
+ */
 import java.io.File;
 
 public class Constants {
     public final static String PROJECT_BASE_PATH= System.getProperty("user.dir");
     public final static long PAGE_LODE_TIMEOUT = 20;
-	public final static long IMPLICIT_WAIT = 10;
+	public final static long IMPLICIT_WAIT = 20;
+	public final static String PROJECT_LOG_PATH=PROJECT_BASE_PATH+File.separator+"resources"+File.separator+"log.properties";
 	public final static String PROJECT_SERVICE_PATH=PROJECT_BASE_PATH + File.separator+"resources"+File.separator+"locators"+File.separator+"Services.properties";
 	public final static String PROJECT_DIGITALLIFE_PATH=PROJECT_BASE_PATH + File.separator+"resources"+File.separator+"locators"+File.separator+"digitallife.properties";
 	public final static String PROJECT_CLOUDSERVICES_PATH=PROJECT_BASE_PATH + File.separator+"resources"+File.separator+"locators"+File.separator+"cloudservices.properties";

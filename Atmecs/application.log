@@ -1,0 +1,717 @@
+2019-08-05 18:37:22,708  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a5c28adfb3080176e7f695892103850e)
+2019-08-05 18:37:25,955  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 18:37:25,956  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 18:42:00,589  INFO [main] LogReports:21 - Actual Title of the page:Services
+2019-08-05 18:42:00,595  INFO [main] LogReports:21 - ExpectedTitle of the page:Services
+2019-08-05 18:42:01,614  INFO [main] LogReports:21 - List of Hyper Link content[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 18:42:01,621  INFO [main] LogReports:21 - Hyper Link count11
+2019-08-05 18:42:01,622  INFO [main] LogReports:21 - Actual Title of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 18:42:01,622  INFO [main] LogReports:21 - ExpectedTitle of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 18:42:02,024  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 18:42:02,025  INFO [main] LogReports:21 - Read More count7
+2019-08-05 18:42:02,025  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 18:42:02,025  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 18:42:05,161  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 18:42:05,161  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 18:42:10,511  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 18:42:10,512  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 18:42:16,340  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 18:42:16,340  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 18:42:21,784  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 18:42:21,785  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 18:42:27,422  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 18:42:27,422  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 18:42:32,804  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 18:42:32,804  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 18:42:38,832  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 18:42:38,832  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 18:42:43,756  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 18:42:43,757  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 18:42:48,280  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 18:42:48,280  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 18:42:58,471  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:43:01,727  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 18:43:01,728  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 18:43:02,363  INFO [main] LogReports:21 - List of Hyper Link content[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 18:43:02,363  INFO [main] LogReports:21 - Hyper Link count5
+2019-08-05 18:43:02,364  INFO [main] LogReports:21 - Actual Title of the page:[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 18:43:02,364  INFO [main] LogReports:21 - ExpectedTitle of the page:[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 18:43:02,749  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 18:43:02,749  INFO [main] LogReports:21 - Read More count5
+2019-08-05 18:43:02,749  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 18:43:02,750  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 18:43:05,742  INFO [main] LogReports:21 - Actual Title of the page:Artificial Intelligence / Machine Learning
+2019-08-05 18:43:05,743  INFO [main] LogReports:21 - ExpectedTitle of the page:Artificial Intelligence / Machine Learning
+2019-08-05 18:43:11,068  INFO [main] LogReports:21 - Actual Title of the page:Augmented Reality / Virtual Reality
+2019-08-05 18:43:11,068  INFO [main] LogReports:21 - ExpectedTitle of the page:Augmented Reality / Virtual Reality
+2019-08-05 18:43:16,247  INFO [main] LogReports:21 - Actual Title of the page:Blockchain
+2019-08-05 18:43:16,248  INFO [main] LogReports:21 - ExpectedTitle of the page:Blockchain
+2019-08-05 18:43:21,618  INFO [main] LogReports:21 - Actual Title of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 18:43:21,618  INFO [main] LogReports:21 - ExpectedTitle of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 18:43:26,821  INFO [main] LogReports:21 - Actual Title of the page:Internet of Things
+2019-08-05 18:43:26,822  INFO [main] LogReports:21 - ExpectedTitle of the page:Internet of Things
+2019-08-05 18:43:35,089  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:43:35,371  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:43:35,693  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:43:38,831  INFO [main] LogReports:21 - Actual Title of the page:Artificial Intelligence / Machine Learning
+2019-08-05 18:43:38,831  INFO [main] LogReports:21 - ExpectedTitle of the page:Artificial Intelligence / Machine Learning
+2019-08-05 18:43:46,512  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:43:46,795  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:43:47,098  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:43:49,282  INFO [main] LogReports:21 - Actual Title of the page:Augmented Reality / Virtual Reality
+2019-08-05 18:43:49,282  INFO [main] LogReports:21 - ExpectedTitle of the page:Augmented Reality / Virtual Reality
+2019-08-05 18:43:56,225  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:43:56,483  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:43:56,766  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:43:59,484  INFO [main] LogReports:21 - Actual Title of the page:Blockchain
+2019-08-05 18:43:59,485  INFO [main] LogReports:21 - ExpectedTitle of the page:Blockchain
+2019-08-05 18:44:08,217  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:44:08,446  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:44:09,063  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:44:11,422  INFO [main] LogReports:21 - Actual Title of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 18:44:11,422  INFO [main] LogReports:21 - ExpectedTitle of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 18:44:19,304  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:44:19,521  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:44:20,126  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (01e460785e88dd74cc2f456b1ca0d568)
+2019-08-05 18:44:22,446  INFO [main] LogReports:21 - Actual Title of the page:Internet of Things
+2019-08-05 18:44:22,446  INFO [main] LogReports:21 - ExpectedTitle of the page:Internet of Things
+2019-08-05 18:44:39,741  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b5fa05f37a6844e6a41112aa40af75e3)
+2019-08-05 18:44:43,532  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 18:44:43,533  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 18:45:05,240  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b3934e25bb7230c61835c32d05077503)
+2019-08-05 18:45:10,171  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 18:45:10,172  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 18:45:33,137  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (e2cbbf5d149f1fcaeaa1c65abdc757da)
+2019-08-05 18:45:38,009  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 18:45:38,010  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 18:46:00,804  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a4b76ec0741e0920debe29fae8c1554b)
+2019-08-05 18:46:06,164  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 18:46:06,164  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 18:46:32,015  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (c0fbe2b4274d3f385bce605f35218852)
+2019-08-05 18:46:36,725  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 18:46:36,726  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 18:47:02,970  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:47:07,835  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 18:47:07,836  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 18:47:09,661  INFO [main] LogReports:21 - List of Hyper Link content[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 18:47:09,662  INFO [main] LogReports:21 - Hyper Link count9
+2019-08-05 18:47:09,664  INFO [main] LogReports:21 - Actual Title of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 18:47:09,665  INFO [main] LogReports:21 - ExpectedTitle of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 18:47:10,326  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 18:47:10,327  INFO [main] LogReports:21 - Read More count5
+2019-08-05 18:47:10,327  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 18:47:10,327  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 18:47:13,868  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-05 18:47:13,869  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-05 18:47:28,072  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-05 18:47:28,073  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-05 18:47:36,078  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-05 18:47:36,078  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-05 18:47:43,892  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-05 18:47:43,892  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-05 18:47:52,901  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:47:53,201  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:47:56,745  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-05 18:47:56,745  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-05 18:48:05,625  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:48:06,205  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:48:07,141  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:48:11,583  INFO [main] LogReports:21 - Actual Title of the page:Cloud Infrastructure
+2019-08-05 18:48:11,584  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Infrastructure
+2019-08-05 18:48:20,049  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:48:20,512  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:48:20,950  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:48:26,329  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-05 18:48:26,329  INFO [main] LogReports:21 - ExpectedTitle of the page:Devops
+2019-08-05 18:48:26,344  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:48:27,108  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:48:28,232  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:48:30,659  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-05 18:48:30,660  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-05 18:48:37,483  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:48:37,900  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:48:38,760  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (a0d2ab336529784a6fb7fc6192a82be9)
+2019-08-05 18:48:41,508  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-05 18:48:41,508  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-05 19:11:38,400  INFO [main] LogReports:21 - Actual Title of the page:Services
+2019-08-05 19:11:38,404  INFO [main] LogReports:21 - ExpectedTitle of the page:Services
+2019-08-05 19:11:39,408  INFO [main] LogReports:21 - List of Hyper Link content[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:11:39,408  INFO [main] LogReports:21 - Hyper Link count11
+2019-08-05 19:11:39,409  INFO [main] LogReports:21 - Actual Title of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:11:39,409  INFO [main] LogReports:21 - ExpectedTitle of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:11:39,837  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:11:39,837  INFO [main] LogReports:21 - Read More count7
+2019-08-05 19:11:39,838  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:11:39,838  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:11:42,456  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:11:42,457  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:11:48,170  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 19:11:48,171  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:11:54,201  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 19:11:54,202  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 19:12:00,019  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 19:12:00,020  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 19:12:05,485  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 19:12:05,485  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 19:12:10,914  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 19:12:10,914  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 19:12:16,095  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 19:12:16,095  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 19:12:20,631  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:12:20,631  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:12:24,687  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:12:24,688  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:12:35,030  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:12:38,361  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 19:12:38,361  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 19:12:39,033  INFO [main] LogReports:21 - List of Hyper Link content[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 19:12:39,034  INFO [main] LogReports:21 - Hyper Link count5
+2019-08-05 19:12:39,035  INFO [main] LogReports:21 - Actual Title of the page:[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 19:12:39,035  INFO [main] LogReports:21 - ExpectedTitle of the page:[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 19:12:39,442  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:12:39,443  INFO [main] LogReports:21 - Read More count5
+2019-08-05 19:12:39,444  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:12:39,444  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:12:41,284  INFO [main] LogReports:21 - Actual Title of the page:Artificial Intelligence / Machine Learning
+2019-08-05 19:12:41,285  INFO [main] LogReports:21 - ExpectedTitle of the page:Artificial Intelligence / Machine Learning
+2019-08-05 19:12:46,618  INFO [main] LogReports:21 - Actual Title of the page:Augmented Reality / Virtual Reality
+2019-08-05 19:12:46,619  INFO [main] LogReports:21 - ExpectedTitle of the page:Augmented Reality / Virtual Reality
+2019-08-05 19:12:51,353  INFO [main] LogReports:21 - Actual Title of the page:Blockchain
+2019-08-05 19:12:51,354  INFO [main] LogReports:21 - ExpectedTitle of the page:Blockchain
+2019-08-05 19:12:55,713  INFO [main] LogReports:21 - Actual Title of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 19:12:55,714  INFO [main] LogReports:21 - ExpectedTitle of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 19:13:00,931  INFO [main] LogReports:21 - Actual Title of the page:Internet of Things
+2019-08-05 19:13:00,931  INFO [main] LogReports:21 - ExpectedTitle of the page:Internet of Things
+2019-08-05 19:13:09,630  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:13:09,887  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:13:10,258  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:13:13,833  INFO [main] LogReports:21 - Actual Title of the page:Artificial Intelligence / Machine Learning
+2019-08-05 19:13:13,834  INFO [main] LogReports:21 - ExpectedTitle of the page:Artificial Intelligence / Machine Learning
+2019-08-05 19:13:21,664  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:13:21,972  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:13:22,246  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:13:24,681  INFO [main] LogReports:21 - Actual Title of the page:Augmented Reality / Virtual Reality
+2019-08-05 19:13:24,681  INFO [main] LogReports:21 - ExpectedTitle of the page:Augmented Reality / Virtual Reality
+2019-08-05 19:13:31,671  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:13:32,083  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:13:32,492  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:13:36,284  INFO [main] LogReports:21 - Actual Title of the page:Blockchain
+2019-08-05 19:13:36,285  INFO [main] LogReports:21 - ExpectedTitle of the page:Blockchain
+2019-08-05 19:13:43,905  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:13:44,463  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:13:45,693  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:13:49,279  INFO [main] LogReports:21 - Actual Title of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 19:13:49,279  INFO [main] LogReports:21 - ExpectedTitle of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 19:14:09,754  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:14:09,991  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:14:20,728  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4e6b4cb18a4d319ab1826ea9edb6a011)
+2019-08-05 19:14:52,362  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (da7a930a831059a7fd4fb8e744d9ac54)
+2019-08-05 19:14:55,798  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 19:14:55,798  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:15:14,628  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (44aeff9006ab61cff5d1d635f0f88d18)
+2019-08-05 19:15:19,312  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:15:19,313  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:15:39,860  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (e9a853457fc6a36bb92acfb541a9288d)
+2019-08-05 19:15:44,040  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 19:15:44,040  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 19:16:04,857  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (c9713767b53102d8ce28a784e52092ad)
+2019-08-05 19:16:10,436  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 19:16:10,437  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 19:16:31,674  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f48deaa29f9d25c26180425477fa3f56)
+2019-08-05 19:16:35,737  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 19:16:35,738  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 19:16:58,703  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:17:04,143  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 19:17:04,143  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 19:17:05,913  INFO [main] LogReports:21 - List of Hyper Link content[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:17:05,914  INFO [main] LogReports:21 - Hyper Link count9
+2019-08-05 19:17:05,915  INFO [main] LogReports:21 - Actual Title of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:17:05,915  INFO [main] LogReports:21 - ExpectedTitle of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:17:06,895  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:17:06,898  INFO [main] LogReports:21 - Read More count5
+2019-08-05 19:17:06,902  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:17:06,905  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:17:10,706  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-05 19:17:10,708  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-05 19:17:22,487  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-05 19:17:22,487  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-05 19:17:28,235  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-05 19:17:28,235  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-05 19:17:36,334  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-05 19:17:36,335  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-05 19:17:47,802  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:17:48,283  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:17:52,170  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-05 19:17:52,171  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-05 19:18:01,214  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:18:01,734  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:18:02,088  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:18:08,281  INFO [main] LogReports:21 - Actual Title of the page:Cloud Infrastructure
+2019-08-05 19:18:08,283  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Infrastructure
+2019-08-05 19:18:15,418  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:18:15,698  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:18:15,997  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:18:19,436  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-05 19:18:19,436  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-05 19:18:26,393  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:18:26,661  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:18:27,542  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:18:30,699  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-05 19:18:30,699  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-05 19:18:38,924  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:18:39,166  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:18:39,747  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ad102403faca993b0755152bcd911ad1)
+2019-08-05 19:18:42,910  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-05 19:18:42,910  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-05 19:21:50,191  INFO [main] LogReports:21 - Actual Title of the page:Services
+2019-08-05 19:21:50,199  INFO [main] LogReports:21 - ExpectedTitle of the page:Services
+2019-08-05 19:21:51,400  INFO [main] LogReports:21 - List of Hyper Link content[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:21:51,401  INFO [main] LogReports:21 - Hyper Link count11
+2019-08-05 19:21:51,401  INFO [main] LogReports:21 - Actual Title of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:21:51,402  INFO [main] LogReports:21 - ExpectedTitle of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:21:51,928  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:21:51,929  INFO [main] LogReports:21 - Read More count7
+2019-08-05 19:21:51,929  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:21:51,930  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:21:54,846  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:21:54,847  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:22:01,270  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 19:22:01,271  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:22:08,097  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 19:22:08,097  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 19:22:14,151  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 19:22:14,152  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 19:22:19,621  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 19:22:19,622  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 19:22:25,123  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 19:22:25,124  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 19:22:30,119  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 19:22:30,119  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 19:22:34,659  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:22:34,660  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:22:38,839  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:22:38,840  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:22:51,446  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:22:55,541  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 19:22:55,542  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 19:22:56,417  INFO [main] LogReports:21 - List of Hyper Link content[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 19:22:56,418  INFO [main] LogReports:21 - Hyper Link count5
+2019-08-05 19:22:56,418  INFO [main] LogReports:21 - Actual Title of the page:[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 19:22:56,419  INFO [main] LogReports:21 - ExpectedTitle of the page:[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 19:22:56,992  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:22:56,993  INFO [main] LogReports:21 - Read More count5
+2019-08-05 19:22:56,993  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:22:56,993  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:23:00,024  INFO [main] LogReports:21 - Actual Title of the page:Artificial Intelligence / Machine Learning
+2019-08-05 19:23:00,025  INFO [main] LogReports:21 - ExpectedTitle of the page:Artificial Intelligence / Machine Learning
+2019-08-05 19:23:06,617  INFO [main] LogReports:21 - Actual Title of the page:Augmented Reality / Virtual Reality
+2019-08-05 19:23:06,617  INFO [main] LogReports:21 - ExpectedTitle of the page:Augmented Reality / Virtual Reality
+2019-08-05 19:23:12,954  INFO [main] LogReports:21 - Actual Title of the page:Blockchain
+2019-08-05 19:23:12,955  INFO [main] LogReports:21 - ExpectedTitle of the page:Blockchain
+2019-08-05 19:23:18,969  INFO [main] LogReports:21 - Actual Title of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 19:23:18,970  INFO [main] LogReports:21 - ExpectedTitle of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 19:23:23,627  INFO [main] LogReports:21 - Actual Title of the page:Internet of Things
+2019-08-05 19:23:23,627  INFO [main] LogReports:21 - ExpectedTitle of the page:Internet of Things
+2019-08-05 19:23:38,246  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:23:39,235  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:23:39,739  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:23:42,590  INFO [main] LogReports:21 - Actual Title of the page:Artificial Intelligence / Machine Learning
+2019-08-05 19:23:42,590  INFO [main] LogReports:21 - ExpectedTitle of the page:Artificial Intelligence / Machine Learning
+2019-08-05 19:23:50,664  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:23:51,034  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:23:51,419  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:23:54,934  INFO [main] LogReports:21 - Actual Title of the page:Augmented Reality / Virtual Reality
+2019-08-05 19:23:54,934  INFO [main] LogReports:21 - ExpectedTitle of the page:Augmented Reality / Virtual Reality
+2019-08-05 19:24:04,943  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:24:05,182  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:24:05,491  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:24:09,770  INFO [main] LogReports:21 - Actual Title of the page:Blockchain
+2019-08-05 19:24:09,771  INFO [main] LogReports:21 - ExpectedTitle of the page:Blockchain
+2019-08-05 19:24:16,990  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:24:17,199  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:24:17,859  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:24:20,126  INFO [main] LogReports:21 - Actual Title of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 19:24:20,127  INFO [main] LogReports:21 - ExpectedTitle of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 19:24:26,486  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:24:26,707  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:24:27,258  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8fbb15366323322a5b25fa486d65a275)
+2019-08-05 19:24:29,576  INFO [main] LogReports:21 - Actual Title of the page:Internet of Things
+2019-08-05 19:24:29,577  INFO [main] LogReports:21 - ExpectedTitle of the page:Internet of Things
+2019-08-05 19:25:49,988  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (e567c1d6112ca809b364016c29b09c18)
+2019-08-05 19:25:55,585  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 19:25:55,586  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:26:19,070  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (1741dbd4b761aeed80816b0dc9617a72)
+2019-08-05 19:26:24,403  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:26:24,403  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:26:52,494  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f1b691465679e61c4e29cbedd5663c23)
+2019-08-05 19:26:58,464  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 19:26:58,467  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 19:27:22,468  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (4d364a6741a23c34a5ffb30a250ff992)
+2019-08-05 19:28:02,291  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (9ead1e504119bd522461c215bb1af095)
+2019-08-05 19:28:08,540  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 19:28:08,542  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 19:28:33,708  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:28:40,575  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 19:28:40,576  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 19:28:42,620  INFO [main] LogReports:21 - List of Hyper Link content[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:28:42,621  INFO [main] LogReports:21 - Hyper Link count9
+2019-08-05 19:28:42,621  INFO [main] LogReports:21 - Actual Title of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:28:42,622  INFO [main] LogReports:21 - ExpectedTitle of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:28:43,426  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:28:43,426  INFO [main] LogReports:21 - Read More count5
+2019-08-05 19:28:43,427  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:28:43,427  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:28:47,469  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-05 19:28:47,470  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-05 19:29:02,772  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-05 19:29:02,773  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-05 19:29:11,526  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-05 19:29:11,526  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-05 19:29:18,036  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-05 19:29:18,037  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-05 19:29:29,100  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:29:30,596  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:29:35,536  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-05 19:29:35,537  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-05 19:29:45,199  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:29:45,495  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:29:46,024  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:29:51,356  INFO [main] LogReports:21 - Actual Title of the page:Cloud Infrastructure
+2019-08-05 19:29:51,357  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Infrastructure
+2019-08-05 19:29:59,964  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:30:00,653  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:30:01,125  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:30:08,299  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-05 19:30:08,301  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-05 19:30:18,126  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:30:18,390  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:30:19,586  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:30:22,712  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-05 19:30:22,712  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-05 19:30:30,586  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:30:30,999  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:30:31,712  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0b81b780129bfdbd91ffbb2048370c14)
+2019-08-05 19:30:34,195  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-05 19:30:34,196  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-05 19:32:07,084  INFO [main] LogReports:21 - Actual Title of the page:Services
+2019-08-05 19:32:07,092  INFO [main] LogReports:21 - ExpectedTitle of the page:Services
+2019-08-05 19:32:09,053  INFO [main] LogReports:21 - List of Hyper Link content[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:32:09,054  INFO [main] LogReports:21 - Hyper Link count11
+2019-08-05 19:32:09,055  INFO [main] LogReports:21 - Actual Title of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:32:09,055  INFO [main] LogReports:21 - ExpectedTitle of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:32:09,761  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:32:09,761  INFO [main] LogReports:21 - Read More count7
+2019-08-05 19:32:09,762  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:32:09,762  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:32:13,174  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:32:13,175  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:32:19,939  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 19:32:19,940  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:32:26,632  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 19:32:26,633  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 19:32:33,472  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 19:32:33,473  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 19:32:41,953  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 19:32:41,954  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 19:32:50,565  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 19:32:50,566  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 19:32:57,984  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 19:32:57,985  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 19:33:03,699  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:33:03,699  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:33:08,491  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:33:08,492  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:37:42,915  INFO [main] LogReports:21 - Actual Title of the page:Services
+2019-08-05 19:37:42,921  INFO [main] LogReports:21 - ExpectedTitle of the page:Services
+2019-08-05 19:37:44,529  INFO [main] LogReports:21 - List of Hyper Link content[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:37:44,529  INFO [main] LogReports:21 - Hyper Link count11
+2019-08-05 19:37:44,530  INFO [main] LogReports:21 - Actual Title of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:37:44,530  INFO [main] LogReports:21 - ExpectedTitle of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:37:45,106  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:37:45,107  INFO [main] LogReports:21 - Read More count7
+2019-08-05 19:37:45,108  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:37:45,108  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:37:49,076  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:37:49,077  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:41:38,174  INFO [main] LogReports:21 - Actual Title of the page:Services
+2019-08-05 19:41:38,179  INFO [main] LogReports:21 - ExpectedTitle of the page:Services
+2019-08-05 19:41:39,354  INFO [main] LogReports:21 - List of Hyper Link content[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:41:39,355  INFO [main] LogReports:21 - Hyper Link count11
+2019-08-05 19:41:39,355  INFO [main] LogReports:21 - Actual Title of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:41:39,356  INFO [main] LogReports:21 - ExpectedTitle of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:41:39,829  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:41:39,830  INFO [main] LogReports:21 - Read More count7
+2019-08-05 19:41:39,830  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:41:39,831  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:41:42,403  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:41:42,404  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:41:48,276  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 19:41:48,276  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:41:54,365  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 19:41:54,366  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 19:42:02,913  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 19:42:02,913  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 19:42:11,851  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 19:42:11,852  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 19:42:17,475  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 19:42:17,476  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 19:42:22,372  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 19:42:22,373  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 19:42:27,354  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:42:27,354  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:42:31,839  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:42:31,839  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:49:11,611  INFO [main] LogReports:21 - Actual Title of the page:Services
+2019-08-05 19:49:11,615  INFO [main] LogReports:21 - ExpectedTitle of the page:Services
+2019-08-05 19:49:12,689  INFO [main] LogReports:21 - List of Hyper Link content[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:49:12,689  INFO [main] LogReports:21 - Hyper Link count11
+2019-08-05 19:49:12,690  INFO [main] LogReports:21 - Actual Title of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:49:12,690  INFO [main] LogReports:21 - ExpectedTitle of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:49:13,120  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:49:13,121  INFO [main] LogReports:21 - Read More count7
+2019-08-05 19:49:13,121  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:49:13,122  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:49:15,676  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:49:15,677  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:49:21,116  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 19:49:21,117  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:49:26,527  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 19:49:26,527  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 19:49:32,960  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 19:49:32,961  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 19:49:38,931  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 19:49:38,931  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 19:49:44,282  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 19:49:44,283  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 19:49:49,196  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 19:49:49,197  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 19:49:53,252  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:49:53,253  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:49:58,381  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 19:49:58,381  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:50:04,898  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 19:50:04,899  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 19:55:46,198  INFO [main] LogReports:21 - Actual Title of the page:Services
+2019-08-05 19:55:46,202  INFO [main] LogReports:21 - ExpectedTitle of the page:Services
+2019-08-05 19:55:47,462  INFO [main] LogReports:21 - List of Hyper Link content[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:55:47,462  INFO [main] LogReports:21 - Hyper Link count11
+2019-08-05 19:55:47,463  INFO [main] LogReports:21 - Actual Title of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:55:47,463  INFO [main] LogReports:21 - ExpectedTitle of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:55:47,920  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:55:47,921  INFO [main] LogReports:21 - Read More count7
+2019-08-05 19:55:47,921  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:55:47,921  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:55:50,660  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:55:50,661  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:55:56,605  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 19:55:56,605  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:56:02,454  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 19:56:02,455  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 19:56:09,557  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 19:56:09,557  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 19:56:15,521  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 19:56:15,521  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 19:56:22,575  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 19:56:22,575  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 19:56:28,010  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 19:56:28,011  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 19:56:33,005  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:56:33,005  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:56:38,447  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 19:56:38,448  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:56:43,777  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 19:56:43,777  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 19:56:48,965  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 19:56:48,965  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 19:56:54,361  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 19:56:54,362  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 19:56:59,483  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 19:56:59,484  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 19:57:06,370  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 19:57:06,370  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 19:59:42,945  INFO [main] LogReports:21 - Actual Title of the page:Services
+2019-08-05 19:59:42,952  INFO [main] LogReports:21 - ExpectedTitle of the page:Services
+2019-08-05 19:59:44,347  INFO [main] LogReports:21 - List of Hyper Link content[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:59:44,347  INFO [main] LogReports:21 - Hyper Link count11
+2019-08-05 19:59:44,348  INFO [main] LogReports:21 - Actual Title of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:59:44,348  INFO [main] LogReports:21 - ExpectedTitle of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 19:59:44,916  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:59:44,917  INFO [main] LogReports:21 - Read More count7
+2019-08-05 19:59:44,917  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:59:44,918  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 19:59:47,686  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 19:59:47,687  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 19:59:53,671  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 19:59:53,672  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 19:59:59,400  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 19:59:59,401  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 20:00:07,117  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 20:00:07,118  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 20:00:13,388  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 20:00:13,389  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 20:00:21,154  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 20:00:21,156  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 20:00:29,727  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 20:00:29,728  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 20:00:34,850  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 20:00:34,851  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 20:00:41,212  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 20:00:41,213  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 20:00:47,303  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 20:00:47,303  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 20:00:53,039  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 20:00:53,039  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 20:01:45,233  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (fdb10373a65d5ee1e4f9e293665d3ccc)
+2019-08-05 20:01:49,696  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 20:01:49,696  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 20:04:55,440  INFO [main] LogReports:21 - Actual Title of the page:Services
+2019-08-05 20:04:55,447  INFO [main] LogReports:21 - ExpectedTitle of the page:Services
+2019-08-05 20:04:56,874  INFO [main] LogReports:21 - List of Hyper Link content[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:04:56,875  INFO [main] LogReports:21 - Hyper Link count11
+2019-08-05 20:04:56,876  INFO [main] LogReports:21 - Actual Title of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:04:56,876  INFO [main] LogReports:21 - ExpectedTitle of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:04:57,241  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:04:57,242  INFO [main] LogReports:21 - Read More count7
+2019-08-05 20:04:57,242  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:04:57,243  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:05:00,492  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 20:05:00,493  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 20:05:10,356  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 20:05:10,356  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 20:05:18,704  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 20:05:18,705  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 20:05:26,851  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 20:05:26,852  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 20:05:34,878  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 20:05:34,878  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 20:05:42,256  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 20:05:42,257  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 20:05:48,447  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 20:05:48,448  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 20:05:54,269  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 20:05:54,270  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 20:06:00,997  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 20:06:00,997  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 20:06:07,948  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 20:06:07,948  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 20:06:14,308  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 20:06:14,308  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 20:06:21,545  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 20:06:21,545  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 20:06:27,268  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 20:06:27,269  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 20:06:32,368  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 20:06:32,369  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 20:07:21,907  INFO [main] LogReports:21 - Actual Title of the page:Services
+2019-08-05 20:07:21,913  INFO [main] LogReports:21 - ExpectedTitle of the page:Services
+2019-08-05 20:07:23,693  INFO [main] LogReports:21 - List of Hyper Link content[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:07:23,694  INFO [main] LogReports:21 - Hyper Link count11
+2019-08-05 20:07:23,695  INFO [main] LogReports:21 - Actual Title of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:07:23,696  INFO [main] LogReports:21 - ExpectedTitle of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:07:24,370  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:07:24,371  INFO [main] LogReports:21 - Read More count7
+2019-08-05 20:07:24,371  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:07:24,372  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:07:27,217  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 20:07:27,217  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 20:07:33,841  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 20:07:33,842  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 20:07:42,013  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 20:07:42,014  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 20:07:48,994  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 20:07:48,995  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 20:07:56,400  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 20:07:56,401  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 20:08:04,170  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 20:08:04,171  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 20:08:08,967  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 20:08:08,968  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 20:08:13,469  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 20:08:13,469  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 20:08:19,901  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 20:08:19,902  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 20:08:26,810  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 20:08:26,810  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 20:08:33,523  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 20:08:33,524  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 20:08:39,483  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 20:08:39,484  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 20:08:47,641  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 20:08:47,641  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 20:08:53,320  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 20:08:53,321  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 20:09:22,361  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (e32e8613-4eda-4f62-b5d2-6cf719e48a1b)
+2019-08-05 20:09:26,237  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 20:09:26,238  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 20:09:27,141  INFO [main] LogReports:21 - List of Hyper Link content[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 20:09:27,141  INFO [main] LogReports:21 - Hyper Link count5
+2019-08-05 20:09:27,142  INFO [main] LogReports:21 - Actual Title of the page:[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 20:09:27,142  INFO [main] LogReports:21 - ExpectedTitle of the page:[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 20:09:27,509  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:09:27,510  INFO [main] LogReports:21 - Read More count5
+2019-08-05 20:09:27,510  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:09:27,510  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:09:30,749  INFO [main] LogReports:21 - Actual Title of the page:Artificial Intelligence / Machine Learning
+2019-08-05 20:09:30,749  INFO [main] LogReports:21 - ExpectedTitle of the page:Artificial Intelligence / Machine Learning
+2019-08-05 20:09:35,864  INFO [main] LogReports:21 - Actual Title of the page:Augmented Reality / Virtual Reality
+2019-08-05 20:09:35,865  INFO [main] LogReports:21 - ExpectedTitle of the page:Augmented Reality / Virtual Reality
+2019-08-05 20:09:43,162  INFO [main] LogReports:21 - Actual Title of the page:Blockchain
+2019-08-05 20:09:43,165  INFO [main] LogReports:21 - ExpectedTitle of the page:Blockchain
+2019-08-05 20:09:49,936  INFO [main] LogReports:21 - Actual Title of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 20:09:49,937  INFO [main] LogReports:21 - ExpectedTitle of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 20:09:56,512  INFO [main] LogReports:21 - Actual Title of the page:Internet of Things
+2019-08-05 20:09:56,513  INFO [main] LogReports:21 - ExpectedTitle of the page:Internet of Things
+2019-08-05 20:10:07,794  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (e32e8613-4eda-4f62-b5d2-6cf719e48a1b)
+2019-08-05 20:10:08,694  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (e32e8613-4eda-4f62-b5d2-6cf719e48a1b)
+2019-08-05 20:10:09,695  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (e32e8613-4eda-4f62-b5d2-6cf719e48a1b)
+2019-08-05 20:10:10,002  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (e32e8613-4eda-4f62-b5d2-6cf719e48a1b)
+2019-08-05 20:10:10,489  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (e32e8613-4eda-4f62-b5d2-6cf719e48a1b)
+2019-08-05 20:10:11,147  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (e32e8613-4eda-4f62-b5d2-6cf719e48a1b)
+2019-08-05 20:10:11,819  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (e32e8613-4eda-4f62-b5d2-6cf719e48a1b)
+2019-08-05 20:10:12,428  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (e32e8613-4eda-4f62-b5d2-6cf719e48a1b)
+2019-08-05 20:10:13,780  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (e32e8613-4eda-4f62-b5d2-6cf719e48a1b)
+2019-08-05 20:10:15,484  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (e32e8613-4eda-4f62-b5d2-6cf719e48a1b)
+2019-08-05 20:10:51,885  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (fbd5a166-8b86-4e38-bd52-92023378429f)
+2019-08-05 20:10:55,910  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 20:10:55,911  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 20:11:38,580  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (f8cb0d43-4d25-4a73-ace6-ec78d5c79786)
+2019-08-05 20:11:44,239  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 20:11:44,240  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 20:12:26,520  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (c821d1e1-a73c-47d4-aec6-c0343b556325)
+2019-08-05 20:12:31,880  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 20:12:31,880  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 20:13:13,540  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (a525835a-0e2d-495e-a297-3586d5429b77)
+2019-08-05 20:13:18,085  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 20:13:18,089  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 20:14:02,145  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (79403ed5-1d61-4eb7-a0fa-d975fa31ce49)
+2019-08-05 20:14:06,506  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 20:14:06,506  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 20:14:45,050  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (d7a66398-524a-45fb-b2e9-061b6d5529e0)
+2019-08-05 20:14:49,964  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 20:14:49,965  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 20:14:51,650  INFO [main] LogReports:21 - List of Hyper Link content[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:14:51,651  INFO [main] LogReports:21 - Hyper Link count9
+2019-08-05 20:14:51,651  INFO [main] LogReports:21 - Actual Title of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:14:51,651  INFO [main] LogReports:21 - ExpectedTitle of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:14:52,275  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:14:52,276  INFO [main] LogReports:21 - Read More count5
+2019-08-05 20:14:52,276  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:14:52,277  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:14:55,803  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-05 20:14:55,803  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-05 20:15:10,462  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-05 20:15:10,462  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-05 20:15:17,801  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-05 20:15:17,802  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-05 20:15:26,227  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-05 20:15:26,228  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-05 20:15:37,819  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (d7a66398-524a-45fb-b2e9-061b6d5529e0)
+2019-08-05 20:15:38,116  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (d7a66398-524a-45fb-b2e9-061b6d5529e0)
+2019-08-05 20:15:38,343  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (d7a66398-524a-45fb-b2e9-061b6d5529e0)
+2019-08-05 20:15:38,937  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (d7a66398-524a-45fb-b2e9-061b6d5529e0)
+2019-08-05 20:15:39,098  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (d7a66398-524a-45fb-b2e9-061b6d5529e0)
+2019-08-05 20:15:39,569  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (d7a66398-524a-45fb-b2e9-061b6d5529e0)
+2019-08-05 20:15:39,714  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (d7a66398-524a-45fb-b2e9-061b6d5529e0)
+2019-08-05 20:15:40,032  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (d7a66398-524a-45fb-b2e9-061b6d5529e0)
+2019-08-05 20:15:40,543  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (d7a66398-524a-45fb-b2e9-061b6d5529e0)
+2019-08-05 20:15:41,107  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (d7a66398-524a-45fb-b2e9-061b6d5529e0)

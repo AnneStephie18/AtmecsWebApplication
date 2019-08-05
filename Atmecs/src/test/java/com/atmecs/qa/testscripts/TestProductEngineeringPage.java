@@ -6,21 +6,35 @@ import org.testng.annotations.Test;
 
 import com.atmecs.qa.pages.ProductEngineeringPage;
 import com.atmecs.qa.testbase.Base;
-
+/**
+ * 
+ * @author Anne.Sivakumar
+ *
+ */
 public class TestProductEngineeringPage extends Base{
 	ProductEngineeringPage product_engineering_page= new ProductEngineeringPage();
+	/**
+	 * open the browser 
+	 */
 	@BeforeTest
 	public void preSetup()
 	{
 		openBrowser();
 	}
 	
+	/**
+	 * call Product_Engineering_Menu method
+	 */
 	@Test
 	public void testServicePageClick()
 	{
 		
 		product_engineering_page.Product_Engineering_Menu(driver);
 	}
+	
+	/**
+	 * quit the browser 
+	 */
 	@AfterTest
 	public void tearDown()
 	{

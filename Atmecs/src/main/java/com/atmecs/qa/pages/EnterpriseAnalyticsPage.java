@@ -6,13 +6,27 @@ import org.openqa.selenium.WebDriver;
 import com.atmecs.qa.constants.Constants;
 import com.atmecs.qa.helper.Helper;
 import com.atmecs.qa.utils.CommonUtilityMethods;
-
+/**
+ * This class is used to validate enterprise analytics page navigation with data of each page navigated 
+ * Perform click operation on service icon and validate the service page is navigated back 
+ * Perform click operation on home icon and validate the home page is navigated back 
+ * verify page navigation with the title of the page
+ * @author Anne.Sivakumar
+ *
+ */
 public class EnterpriseAnalyticsPage {
 	Helper helperobject=new Helper();
 	CommonUtilityMethods commmon_utility=new CommonUtilityMethods();
 	ServicePage servicepageobject=new ServicePage();
 	DigitalLifePage digitallifepageobject=new DigitalLifePage();
 	public String propertyfilepath=Constants.PROJECT_ENTERPRISEANALYTICS_PATH;
+	/**
+	 * validate enterprise analytics page navigation by verifying page enterprise analytics title 
+	 * Perform click operation on service icon and validate the service page is navigated back 
+	 * Perform click operation on home icon and validate the home page is navigated back
+	 * 
+	 * @param driver
+	 */
 	public void Enterprise_Analytics_Menu(WebDriver driver)
 	{
 		digitallifepageobject.clickservicemenu(driver);
