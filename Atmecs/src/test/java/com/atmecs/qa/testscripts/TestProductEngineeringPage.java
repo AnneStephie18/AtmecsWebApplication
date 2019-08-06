@@ -26,7 +26,7 @@ public class TestProductEngineeringPage extends Base{
 	 * call Product_Engineering_Menu method
 	 */
 	@Test
-	public void testServicePageClick()
+	public void testProductEngineeringClick()
 	{
 		
 		product_engineering_page.Product_Engineering_Menu(driver);

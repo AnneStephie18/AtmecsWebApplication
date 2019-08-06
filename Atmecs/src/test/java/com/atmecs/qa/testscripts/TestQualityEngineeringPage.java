@@ -26,7 +26,7 @@ public class TestQualityEngineeringPage extends Base{
 	 * call Quality_Engineering_Menu method
 	 */
 	@Test
-	public void testServicePageClick()
+	public void testQualityEngineeringPageClick()
 	{
 		quality_engineering_page.Quality_Engineering_Menu(driver);
 		

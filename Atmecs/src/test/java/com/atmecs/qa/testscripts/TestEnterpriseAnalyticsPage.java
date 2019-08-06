@@ -26,7 +26,7 @@ public class TestEnterpriseAnalyticsPage extends Base {
 	 * call Enterprise_Analytics_Menu method
 	 */
 	@Test
-	public void testServicePageClick()
+	public void testEnterpriseAnalyticsPageClick()
 	{
 		
 		enterprise_analytics_page.Enterprise_Analytics_Menu(driver);

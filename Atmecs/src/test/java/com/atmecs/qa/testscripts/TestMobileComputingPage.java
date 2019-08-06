@@ -26,7 +26,7 @@ public class TestMobileComputingPage extends Base{
 	 * call Mobile_Computing_Menu method
 	 */
 	@Test
-	public void testServicePageClick()
+	public void testMobileComputingClick()
 	{
 		mobile_computing_page.Mobile_Computing_Menu(driver);
 		
