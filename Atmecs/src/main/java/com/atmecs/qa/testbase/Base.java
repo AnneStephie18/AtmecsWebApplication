@@ -12,10 +12,21 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import com.atmecs.qa.constants.Constants;
-
+/**
+ * This class is used for creation of driver(Chrome,Firefox,Internt Explorer) and close the driver and load properties file
+ * @author Anne.Sivakumar
+ *
+ */
 public class Base {
 	public WebDriver driver;
 	public Properties properties;
+	
+	/**
+	 * read property file 
+	 * load the property file
+	 * @param path
+	 * @return
+	 */
     public Properties readProperties(String path)
     {
     	
@@ -33,6 +44,9 @@ public class Base {
 		return properties;
     }
     
+    /**
+     * creation of chrome ,firefox, internet explorer driver 
+     */
 	public void openBrowser() 
 	{
 		String path = Constants.PROJECT_BASE_PATH+"/resources/Config.properties";
@@ -64,7 +78,7 @@ public class Base {
 		
 	}
 
-   
+   //close the driver
 	public void quitBrowser()  {
     	driver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		driver.quit();

@@ -20,7 +20,7 @@ import com.atmecs.qa.testbase.Base;
  */
 public class CommonUtilityMethods extends Base {
 	LogReports log=new LogReports();
-	 private static Logger logger = Logger.getLogger(CommonUtilityMethods.class.getName());
+	
 	
 	 //get xpath and driver  as parameter and perform mouse over using actions class
 	public void performMouseOverInServiceMenu(WebDriver driver,By mouseclick)

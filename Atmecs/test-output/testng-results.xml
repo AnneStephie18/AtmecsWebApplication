@@ -2,172 +2,172 @@
 <testng-results skipped="0" failed="0" total="18" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="538420" started-at="2019-08-06T05:11:30Z" finished-at="2019-08-06T05:20:28Z">
+  <suite name="Suite" duration-ms="362833" started-at="2019-08-06T09:48:04Z" finished-at="2019-08-06T09:54:07Z">
     <groups>
     </groups>
-    <test name="test1" duration-ms="109295" started-at="2019-08-06T05:11:30Z" finished-at="2019-08-06T05:13:19Z">
+    <test name="test1" duration-ms="81983" started-at="2019-08-06T09:48:04Z" finished-at="2019-08-06T09:49:26Z">
       <class name="com.atmecs.qa.testscripts.TestServicePage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="preSetup" is-config="true" duration-ms="15382" started-at="2019-08-06T10:41:30Z" finished-at="2019-08-06T10:41:45Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="preSetup" is-config="true" duration-ms="10117" started-at="2019-08-06T15:18:04Z" finished-at="2019-08-06T15:18:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="testServicePageClick" duration-ms="92797" started-at="2019-08-06T10:41:45Z" finished-at="2019-08-06T10:43:18Z">
+        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="testServicePageClick" duration-ms="70920" started-at="2019-08-06T15:18:14Z" finished-at="2019-08-06T15:19:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testServicePageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="tearDown" is-config="true" duration-ms="1090" started-at="2019-08-06T10:43:18Z" finished-at="2019-08-06T10:43:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="tearDown" is-config="true" duration-ms="919" started-at="2019-08-06T15:19:25Z" finished-at="2019-08-06T15:19:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestServicePage -->
     </test> <!-- test1 -->
-    <test name="test2" duration-ms="116228" started-at="2019-08-06T05:13:19Z" finished-at="2019-08-06T05:15:15Z">
+    <test name="test2" duration-ms="86756" started-at="2019-08-06T09:49:26Z" finished-at="2019-08-06T09:50:53Z">
       <class name="com.atmecs.qa.testscripts.TestDigitalLifePage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="preSetup" is-config="true" duration-ms="15866" started-at="2019-08-06T10:43:19Z" finished-at="2019-08-06T10:43:35Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="preSetup" is-config="true" duration-ms="10335" started-at="2019-08-06T15:19:26Z" finished-at="2019-08-06T15:19:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testDigitalLifePageClick()[pri:1, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testDigitalLifePageClick" duration-ms="39557" started-at="2019-08-06T10:43:35Z" finished-at="2019-08-06T10:44:14Z">
+        <test-method status="PASS" signature="testDigitalLifePageClick()[pri:1, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testDigitalLifePageClick" duration-ms="30285" started-at="2019-08-06T15:19:37Z" finished-at="2019-08-06T15:20:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDigitalLifePageClick -->
-        <test-method status="PASS" signature="testArtificialIntelligencePageClick()[pri:2, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testArtificialIntelligencePageClick" duration-ms="11446" started-at="2019-08-06T10:44:14Z" finished-at="2019-08-06T10:44:26Z">
+        <test-method status="PASS" signature="testArtificialIntelligencePageClick()[pri:2, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testArtificialIntelligencePageClick" duration-ms="9097" started-at="2019-08-06T15:20:07Z" finished-at="2019-08-06T15:20:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testArtificialIntelligencePageClick -->
-        <test-method status="PASS" signature="testVirtualRealityPageClick()[pri:3, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testVirtualRealityPageClick" duration-ms="12713" started-at="2019-08-06T10:44:26Z" finished-at="2019-08-06T10:44:39Z">
+        <test-method status="PASS" signature="testVirtualRealityPageClick()[pri:3, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testVirtualRealityPageClick" duration-ms="8929" started-at="2019-08-06T15:20:16Z" finished-at="2019-08-06T15:20:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVirtualRealityPageClick -->
-        <test-method status="PASS" signature="testBlockchainPageClick()[pri:4, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testBlockchainPageClick" duration-ms="11805" started-at="2019-08-06T10:44:39Z" finished-at="2019-08-06T10:44:50Z">
+        <test-method status="PASS" signature="testBlockchainPageClick()[pri:4, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testBlockchainPageClick" duration-ms="8204" started-at="2019-08-06T15:20:25Z" finished-at="2019-08-06T15:20:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBlockchainPageClick -->
-        <test-method status="PASS" signature="testRoboticPageClick()[pri:5, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testRoboticPageClick" duration-ms="12526" started-at="2019-08-06T10:44:50Z" finished-at="2019-08-06T10:45:03Z">
+        <test-method status="PASS" signature="testRoboticPageClick()[pri:5, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testRoboticPageClick" duration-ms="9990" started-at="2019-08-06T15:20:33Z" finished-at="2019-08-06T15:20:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRoboticPageClick -->
-        <test-method status="PASS" signature="testInternetOfThingsPageClick()[pri:6, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testInternetOfThingsPageClick" duration-ms="11199" started-at="2019-08-06T10:45:03Z" finished-at="2019-08-06T10:45:14Z">
+        <test-method status="PASS" signature="testInternetOfThingsPageClick()[pri:6, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testInternetOfThingsPageClick" duration-ms="8875" started-at="2019-08-06T15:20:43Z" finished-at="2019-08-06T15:20:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInternetOfThingsPageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="1107" started-at="2019-08-06T10:45:14Z" finished-at="2019-08-06T10:45:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="1033" started-at="2019-08-06T15:20:52Z" finished-at="2019-08-06T15:20:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestDigitalLifePage -->
     </test> <!-- test2 -->
-    <test name="test3" duration-ms="31959" started-at="2019-08-06T05:15:15Z" finished-at="2019-08-06T05:15:47Z">
+    <test name="test3" duration-ms="19077" started-at="2019-08-06T09:50:53Z" finished-at="2019-08-06T09:51:12Z">
       <class name="com.atmecs.qa.testscripts.TestCloudServicesPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="preSetup" is-config="true" duration-ms="16765" started-at="2019-08-06T10:45:15Z" finished-at="2019-08-06T10:45:32Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="preSetup" is-config="true" duration-ms="9577" started-at="2019-08-06T15:20:53Z" finished-at="2019-08-06T15:21:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testCloudServicesPageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="testCloudServicesPageClick" duration-ms="13773" started-at="2019-08-06T10:45:32Z" finished-at="2019-08-06T10:45:46Z">
+        <test-method status="PASS" signature="testCloudServicesPageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="testCloudServicesPageClick" duration-ms="8033" started-at="2019-08-06T15:21:03Z" finished-at="2019-08-06T15:21:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCloudServicesPageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="tearDown" is-config="true" duration-ms="1419" started-at="2019-08-06T10:45:46Z" finished-at="2019-08-06T10:45:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="tearDown" is-config="true" duration-ms="1466" started-at="2019-08-06T15:21:11Z" finished-at="2019-08-06T15:21:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestCloudServicesPage -->
     </test> <!-- test3 -->
-    <test name="test4" duration-ms="32272" started-at="2019-08-06T05:15:47Z" finished-at="2019-08-06T05:16:19Z">
+    <test name="test4" duration-ms="19111" started-at="2019-08-06T09:51:12Z" finished-at="2019-08-06T09:51:31Z">
       <class name="com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="preSetup" is-config="true" duration-ms="17044" started-at="2019-08-06T10:45:47Z" finished-at="2019-08-06T10:46:04Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="preSetup" is-config="true" duration-ms="9305" started-at="2019-08-06T15:21:12Z" finished-at="2019-08-06T15:21:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="testServicePageClick" duration-ms="13673" started-at="2019-08-06T10:46:04Z" finished-at="2019-08-06T10:46:18Z">
+        <test-method status="PASS" signature="testEnterpriseAnalyticsPageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="testEnterpriseAnalyticsPageClick" duration-ms="8407" started-at="2019-08-06T15:21:21Z" finished-at="2019-08-06T15:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testServicePageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="tearDown" is-config="true" duration-ms="1552" started-at="2019-08-06T10:46:18Z" finished-at="2019-08-06T10:46:19Z">
+        </test-method> <!-- testEnterpriseAnalyticsPageClick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="tearDown" is-config="true" duration-ms="1397" started-at="2019-08-06T15:21:30Z" finished-at="2019-08-06T15:21:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage -->
     </test> <!-- test4 -->
-    <test name="test5" duration-ms="29494" started-at="2019-08-06T05:16:19Z" finished-at="2019-08-06T05:16:49Z">
+    <test name="test5" duration-ms="19544" started-at="2019-08-06T09:51:31Z" finished-at="2019-08-06T09:51:51Z">
       <class name="com.atmecs.qa.testscripts.TestMobileComputingPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="preSetup" is-config="true" duration-ms="17274" started-at="2019-08-06T10:46:19Z" finished-at="2019-08-06T10:46:37Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="preSetup" is-config="true" duration-ms="9259" started-at="2019-08-06T15:21:31Z" finished-at="2019-08-06T15:21:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="testServicePageClick" duration-ms="10559" started-at="2019-08-06T10:46:37Z" finished-at="2019-08-06T10:46:47Z">
+        <test-method status="PASS" signature="testMobileComputingClick()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="testMobileComputingClick" duration-ms="8985" started-at="2019-08-06T15:21:40Z" finished-at="2019-08-06T15:21:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testServicePageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="tearDown" is-config="true" duration-ms="1659" started-at="2019-08-06T10:46:47Z" finished-at="2019-08-06T10:46:49Z">
+        </test-method> <!-- testMobileComputingClick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="tearDown" is-config="true" duration-ms="1299" started-at="2019-08-06T15:21:49Z" finished-at="2019-08-06T15:21:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestMobileComputingPage -->
     </test> <!-- test5 -->
-    <test name="test6" duration-ms="29611" started-at="2019-08-06T05:16:49Z" finished-at="2019-08-06T05:17:19Z">
+    <test name="test6" duration-ms="20379" started-at="2019-08-06T09:51:51Z" finished-at="2019-08-06T09:52:11Z">
       <class name="com.atmecs.qa.testscripts.TestProductEngineeringPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="preSetup" is-config="true" duration-ms="15478" started-at="2019-08-06T10:46:49Z" finished-at="2019-08-06T10:47:04Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="preSetup" is-config="true" duration-ms="9208" started-at="2019-08-06T15:21:51Z" finished-at="2019-08-06T15:22:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="testServicePageClick" duration-ms="12180" started-at="2019-08-06T10:47:04Z" finished-at="2019-08-06T10:47:17Z">
+        <test-method status="PASS" signature="testProductEngineeringClick()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="testProductEngineeringClick" duration-ms="9604" started-at="2019-08-06T15:22:00Z" finished-at="2019-08-06T15:22:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testServicePageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="tearDown" is-config="true" duration-ms="1949" started-at="2019-08-06T10:47:17Z" finished-at="2019-08-06T10:47:19Z">
+        </test-method> <!-- testProductEngineeringClick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="tearDown" is-config="true" duration-ms="1565" started-at="2019-08-06T15:22:10Z" finished-at="2019-08-06T15:22:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestProductEngineeringPage -->
     </test> <!-- test6 -->
-    <test name="test7" duration-ms="32622" started-at="2019-08-06T05:17:19Z" finished-at="2019-08-06T05:17:51Z">
+    <test name="test7" duration-ms="19982" started-at="2019-08-06T09:52:11Z" finished-at="2019-08-06T09:52:31Z">
       <class name="com.atmecs.qa.testscripts.TestQualityEngineeringPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="preSetup" is-config="true" duration-ms="16465" started-at="2019-08-06T10:47:19Z" finished-at="2019-08-06T10:47:35Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="preSetup" is-config="true" duration-ms="9323" started-at="2019-08-06T15:22:11Z" finished-at="2019-08-06T15:22:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="testServicePageClick" duration-ms="14336" started-at="2019-08-06T10:47:35Z" finished-at="2019-08-06T10:47:49Z">
+        <test-method status="PASS" signature="testQualityEngineeringPageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="testQualityEngineeringPageClick" duration-ms="9137" started-at="2019-08-06T15:22:20Z" finished-at="2019-08-06T15:22:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testServicePageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="tearDown" is-config="true" duration-ms="1815" started-at="2019-08-06T10:47:49Z" finished-at="2019-08-06T10:47:51Z">
+        </test-method> <!-- testQualityEngineeringPageClick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="tearDown" is-config="true" duration-ms="1521" started-at="2019-08-06T15:22:30Z" finished-at="2019-08-06T15:22:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestQualityEngineeringPage -->
     </test> <!-- test7 -->
-    <test name="test8" duration-ms="156817" started-at="2019-08-06T05:17:51Z" finished-at="2019-08-06T05:20:28Z">
+    <test name="test8" duration-ms="95920" started-at="2019-08-06T09:52:31Z" finished-at="2019-08-06T09:54:07Z">
       <class name="com.atmecs.qa.testscripts.TestInfrastructureServicesPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="preSetup" is-config="true" duration-ms="14558" started-at="2019-08-06T10:47:51Z" finished-at="2019-08-06T10:48:06Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="preSetup" is-config="true" duration-ms="9273" started-at="2019-08-06T15:22:31Z" finished-at="2019-08-06T15:22:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testInfrastructureServicePageClick()[pri:1, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testInfrastructureServicePageClick" duration-ms="48845" started-at="2019-08-06T10:48:06Z" finished-at="2019-08-06T10:48:55Z">
+        <test-method status="PASS" signature="testInfrastructureServicePageClick()[pri:1, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testInfrastructureServicePageClick" duration-ms="34026" started-at="2019-08-06T15:22:40Z" finished-at="2019-08-06T15:23:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInfrastructureServicePageClick -->
-        <test-method status="PASS" signature="testInfrastructureManagementPageClick()[pri:2, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testInfrastructureManagementPageClick" duration-ms="19750" started-at="2019-08-06T10:48:55Z" finished-at="2019-08-06T10:49:14Z">
+        <test-method status="PASS" signature="testInfrastructureManagementPageClick()[pri:2, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testInfrastructureManagementPageClick" duration-ms="11142" started-at="2019-08-06T15:23:14Z" finished-at="2019-08-06T15:23:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInfrastructureManagementPageClick -->
-        <test-method status="PASS" signature="testCloudInfrastructurePageClick()[pri:3, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testCloudInfrastructurePageClick" duration-ms="20435" started-at="2019-08-06T10:49:14Z" finished-at="2019-08-06T10:49:35Z">
+        <test-method status="PASS" signature="testCloudInfrastructurePageClick()[pri:3, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testCloudInfrastructurePageClick" duration-ms="9434" started-at="2019-08-06T15:23:26Z" finished-at="2019-08-06T15:23:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCloudInfrastructurePageClick -->
-        <test-method status="PASS" signature="testDevopsPageClick()[pri:4, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testDevopsPageClick" duration-ms="17974" started-at="2019-08-06T10:49:35Z" finished-at="2019-08-06T10:49:53Z">
+        <test-method status="PASS" signature="testDevopsPageClick()[pri:4, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testDevopsPageClick" duration-ms="10270" started-at="2019-08-06T15:23:35Z" finished-at="2019-08-06T15:23:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDevopsPageClick -->
-        <test-method status="PASS" signature="testNOCServicesPageClick()[pri:5, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testNOCServicesPageClick" duration-ms="17762" started-at="2019-08-06T10:49:53Z" finished-at="2019-08-06T10:50:11Z">
+        <test-method status="PASS" signature="testNOCServicesPageClick()[pri:5, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testNOCServicesPageClick" duration-ms="9582" started-at="2019-08-06T15:23:45Z" finished-at="2019-08-06T15:23:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNOCServicesPageClick -->
-        <test-method status="PASS" signature="testDataCenterManagementPageClick()[pri:6, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testDataCenterManagementPageClick" duration-ms="16197" started-at="2019-08-06T10:50:11Z" finished-at="2019-08-06T10:50:27Z">
+        <test-method status="PASS" signature="testDataCenterManagementPageClick()[pri:6, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testDataCenterManagementPageClick" duration-ms="10951" started-at="2019-08-06T15:23:55Z" finished-at="2019-08-06T15:24:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataCenterManagementPageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="tearDown" is-config="true" duration-ms="1281" started-at="2019-08-06T10:50:27Z" finished-at="2019-08-06T10:50:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="tearDown" is-config="true" duration-ms="1232" started-at="2019-08-06T15:24:06Z" finished-at="2019-08-06T15:24:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
