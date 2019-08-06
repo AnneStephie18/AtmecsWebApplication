@@ -715,3 +715,596 @@
 2019-08-05 20:15:40,032  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (d7a66398-524a-45fb-b2e9-061b6d5529e0)
 2019-08-05 20:15:40,543  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (d7a66398-524a-45fb-b2e9-061b6d5529e0)
 2019-08-05 20:15:41,107  INFO [main] LogReports:21 - Driver:FirefoxDriver: firefox on WINDOWS (d7a66398-524a-45fb-b2e9-061b6d5529e0)
+2019-08-05 20:23:21,525  INFO [main] LogReports:21 - Actual Title of the page:Services
+2019-08-05 20:23:21,540  INFO [main] LogReports:21 - ExpectedTitle of the page:Services
+2019-08-05 20:23:22,695  INFO [main] LogReports:21 - List of Hyper Link content[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:23:22,695  INFO [main] LogReports:21 - Hyper Link count11
+2019-08-05 20:23:22,696  INFO [main] LogReports:21 - Actual Title of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:23:22,696  INFO [main] LogReports:21 - ExpectedTitle of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:23:23,145  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:23:23,146  INFO [main] LogReports:21 - Read More count7
+2019-08-05 20:23:23,146  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:23:23,147  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:23:25,830  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 20:23:25,831  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 20:23:31,696  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 20:23:31,697  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 20:23:37,580  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 20:23:37,580  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 20:23:43,885  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 20:23:43,886  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 20:23:49,555  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 20:23:49,556  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 20:23:55,149  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 20:23:55,150  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 20:24:01,112  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 20:24:01,113  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 20:24:06,730  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 20:24:06,730  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 20:24:12,316  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 20:24:12,316  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 20:24:17,882  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 20:24:17,882  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 20:24:23,204  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 20:24:23,205  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 20:24:28,393  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 20:24:28,394  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 20:24:33,134  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 20:24:33,135  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 20:24:38,452  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 20:24:38,453  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 20:24:59,103  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:25:05,818  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-05 20:25:05,819  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-05 20:25:06,740  INFO [main] LogReports:21 - List of Hyper Link content[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 20:25:06,741  INFO [main] LogReports:21 - Hyper Link count5
+2019-08-05 20:25:06,741  INFO [main] LogReports:21 - Actual Title of the page:[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 20:25:06,742  INFO [main] LogReports:21 - ExpectedTitle of the page:[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-05 20:25:07,534  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:25:07,538  INFO [main] LogReports:21 - Read More count5
+2019-08-05 20:25:07,541  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:25:07,544  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:25:11,322  INFO [main] LogReports:21 - Actual Title of the page:Artificial Intelligence / Machine Learning
+2019-08-05 20:25:11,323  INFO [main] LogReports:21 - ExpectedTitle of the page:Artificial Intelligence / Machine Learning
+2019-08-05 20:25:17,515  INFO [main] LogReports:21 - Actual Title of the page:Augmented Reality / Virtual Reality
+2019-08-05 20:25:17,516  INFO [main] LogReports:21 - ExpectedTitle of the page:Augmented Reality / Virtual Reality
+2019-08-05 20:25:24,193  INFO [main] LogReports:21 - Actual Title of the page:Blockchain
+2019-08-05 20:25:24,194  INFO [main] LogReports:21 - ExpectedTitle of the page:Blockchain
+2019-08-05 20:25:30,277  INFO [main] LogReports:21 - Actual Title of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 20:25:30,278  INFO [main] LogReports:21 - ExpectedTitle of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 20:25:38,014  INFO [main] LogReports:21 - Actual Title of the page:Internet of Things
+2019-08-05 20:25:38,014  INFO [main] LogReports:21 - ExpectedTitle of the page:Internet of Things
+2019-08-05 20:25:49,600  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:25:50,393  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:25:50,890  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:25:55,723  INFO [main] LogReports:21 - Actual Title of the page:Artificial Intelligence / Machine Learning
+2019-08-05 20:25:55,724  INFO [main] LogReports:21 - ExpectedTitle of the page:Artificial Intelligence / Machine Learning
+2019-08-05 20:26:12,847  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:26:13,584  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:26:14,169  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:26:20,808  INFO [main] LogReports:21 - Actual Title of the page:Augmented Reality / Virtual Reality
+2019-08-05 20:26:20,809  INFO [main] LogReports:21 - ExpectedTitle of the page:Augmented Reality / Virtual Reality
+2019-08-05 20:26:31,295  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:26:31,679  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:26:32,632  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:26:36,734  INFO [main] LogReports:21 - Actual Title of the page:Blockchain
+2019-08-05 20:26:36,735  INFO [main] LogReports:21 - ExpectedTitle of the page:Blockchain
+2019-08-05 20:26:45,820  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:26:46,554  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:26:47,798  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:26:52,318  INFO [main] LogReports:21 - Actual Title of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 20:26:52,323  INFO [main] LogReports:21 - ExpectedTitle of the page:Robotic Process Automation & ChatBOTs
+2019-08-05 20:26:59,944  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:27:00,796  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:27:02,164  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f5668dbb5598df49666e412376b2310c)
+2019-08-05 20:27:07,536  INFO [main] LogReports:21 - Actual Title of the page:Internet of Things
+2019-08-05 20:27:07,537  INFO [main] LogReports:21 - ExpectedTitle of the page:Internet of Things
+2019-08-05 20:27:45,560  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (e73fa4035f7447096efe457abd79a301)
+2019-08-05 20:27:52,227  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-05 20:27:52,228  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-05 20:28:25,208  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (083d79faf865e78fa875b696d3aba864)
+2019-08-05 20:28:32,045  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-05 20:28:32,050  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-05 20:29:07,219  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (ec818e8abdfafc9cf56e6dabba46658f)
+2019-08-05 20:29:20,384  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-05 20:29:20,390  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-05 20:29:54,960  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (69e7532941e871ec348417d1e614861a)
+2019-08-05 20:30:03,110  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-05 20:30:03,111  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-05 20:30:38,814  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (162a9b505961fbb9282fbcc482d4093e)
+2019-08-05 20:30:44,579  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-05 20:30:44,580  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-05 20:31:12,496  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f094a51991f4030fb22664b0f13f74ac)
+2019-08-05 20:31:19,526  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-05 20:31:19,527  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-05 20:31:22,251  INFO [main] LogReports:21 - List of Hyper Link content[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:31:22,252  INFO [main] LogReports:21 - Hyper Link count9
+2019-08-05 20:31:22,252  INFO [main] LogReports:21 - Actual Title of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:31:22,252  INFO [main] LogReports:21 - ExpectedTitle of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-05 20:31:24,995  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:31:24,996  INFO [main] LogReports:21 - Read More count5
+2019-08-05 20:31:24,996  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:31:24,997  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-05 20:31:34,705  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-05 20:31:34,706  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-05 20:32:00,800  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f094a51991f4030fb22664b0f13f74ac)
+2019-08-05 20:32:20,921  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f094a51991f4030fb22664b0f13f74ac)
+2019-08-05 20:32:40,998  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f094a51991f4030fb22664b0f13f74ac)
+2019-08-05 20:33:01,136  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f094a51991f4030fb22664b0f13f74ac)
+2019-08-05 20:33:21,226  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (f094a51991f4030fb22664b0f13f74ac)
+2019-08-06 10:06:16,304  INFO [main] LogReports:21 - Actual Title of the page:Services
+2019-08-06 10:06:16,310  INFO [main] LogReports:21 - ExpectedTitle of the page:Services
+2019-08-06 10:06:17,020  INFO [main] LogReports:21 - List of Hyper Link content[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:06:17,021  INFO [main] LogReports:21 - Hyper Link count11
+2019-08-06 10:06:17,021  INFO [main] LogReports:21 - Actual Title of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:06:17,021  INFO [main] LogReports:21 - ExpectedTitle of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:06:17,334  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:06:17,334  INFO [main] LogReports:21 - Read More count7
+2019-08-06 10:06:17,334  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:06:17,335  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:06:19,290  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-06 10:06:19,291  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-06 10:06:23,840  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-06 10:06:23,840  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-06 10:06:28,468  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-06 10:06:28,468  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-06 10:06:33,083  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-06 10:06:33,083  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-06 10:06:37,586  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-06 10:06:37,586  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-06 10:06:42,245  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-06 10:06:42,245  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-06 10:06:46,025  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-06 10:06:46,025  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-06 10:06:49,741  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-06 10:06:49,741  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-06 10:06:54,181  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-06 10:06:54,182  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-06 10:06:58,807  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-06 10:06:58,807  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-06 10:07:03,966  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-06 10:07:03,967  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-06 10:07:08,693  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-06 10:07:08,694  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-06 10:07:12,575  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-06 10:07:12,576  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-06 10:07:16,413  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-06 10:07:16,414  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-06 10:07:32,695  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:07:35,210  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-06 10:07:35,210  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-06 10:07:35,662  INFO [main] LogReports:21 - List of Hyper Link content[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-06 10:07:35,663  INFO [main] LogReports:21 - Hyper Link count5
+2019-08-06 10:07:35,663  INFO [main] LogReports:21 - Actual Title of the page:[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-06 10:07:35,663  INFO [main] LogReports:21 - ExpectedTitle of the page:[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-06 10:07:35,948  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:07:35,949  INFO [main] LogReports:21 - Read More count5
+2019-08-06 10:07:35,949  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:07:35,949  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:07:38,131  INFO [main] LogReports:21 - Actual Title of the page:Artificial Intelligence / Machine Learning
+2019-08-06 10:07:38,131  INFO [main] LogReports:21 - ExpectedTitle of the page:Artificial Intelligence / Machine Learning
+2019-08-06 10:07:41,929  INFO [main] LogReports:21 - Actual Title of the page:Augmented Reality / Virtual Reality
+2019-08-06 10:07:41,929  INFO [main] LogReports:21 - ExpectedTitle of the page:Augmented Reality / Virtual Reality
+2019-08-06 10:07:45,784  INFO [main] LogReports:21 - Actual Title of the page:Blockchain
+2019-08-06 10:07:45,784  INFO [main] LogReports:21 - ExpectedTitle of the page:Blockchain
+2019-08-06 10:07:49,647  INFO [main] LogReports:21 - Actual Title of the page:Robotic Process Automation & ChatBOTs
+2019-08-06 10:07:49,648  INFO [main] LogReports:21 - ExpectedTitle of the page:Robotic Process Automation & ChatBOTs
+2019-08-06 10:07:53,469  INFO [main] LogReports:21 - Actual Title of the page:Internet of Things
+2019-08-06 10:07:53,469  INFO [main] LogReports:21 - ExpectedTitle of the page:Internet of Things
+2019-08-06 10:07:59,768  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:07:59,972  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:08:00,191  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:08:02,684  INFO [main] LogReports:21 - Actual Title of the page:Artificial Intelligence / Machine Learning
+2019-08-06 10:08:02,684  INFO [main] LogReports:21 - ExpectedTitle of the page:Artificial Intelligence / Machine Learning
+2019-08-06 10:08:08,454  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:08:08,678  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:08:08,886  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:08:11,013  INFO [main] LogReports:21 - Actual Title of the page:Augmented Reality / Virtual Reality
+2019-08-06 10:08:11,013  INFO [main] LogReports:21 - ExpectedTitle of the page:Augmented Reality / Virtual Reality
+2019-08-06 10:08:16,656  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:08:16,856  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:08:17,074  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:08:19,217  INFO [main] LogReports:21 - Actual Title of the page:Blockchain
+2019-08-06 10:08:19,217  INFO [main] LogReports:21 - ExpectedTitle of the page:Blockchain
+2019-08-06 10:08:24,814  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:08:25,034  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:08:25,656  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:08:27,758  INFO [main] LogReports:21 - Actual Title of the page:Robotic Process Automation & ChatBOTs
+2019-08-06 10:08:27,758  INFO [main] LogReports:21 - ExpectedTitle of the page:Robotic Process Automation & ChatBOTs
+2019-08-06 10:08:33,422  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:08:33,629  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:08:34,154  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (73d7ca082fbe45867eaa8c07349a9e5e)
+2019-08-06 10:08:36,261  INFO [main] LogReports:21 - Actual Title of the page:Internet of Things
+2019-08-06 10:08:36,261  INFO [main] LogReports:21 - ExpectedTitle of the page:Internet of Things
+2019-08-06 10:08:54,054  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8bbd5feb4f5121197dc893b73fe70d69)
+2019-08-06 10:08:56,540  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-06 10:08:56,540  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-06 10:09:13,650  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (e9aa693125508f4de7a86733dd367487)
+2019-08-06 10:09:16,100  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-06 10:09:16,100  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-06 10:09:33,445  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5a414e52fbcfca279a38bbc04f8138aa)
+2019-08-06 10:09:36,115  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-06 10:09:36,116  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-06 10:09:53,384  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (86c6dd00e0598336d593ca0fdaf009d2)
+2019-08-06 10:09:56,006  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-06 10:09:56,007  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-06 10:10:13,503  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (2153b5ed023eef2daa014bab862d0ae6)
+2019-08-06 10:10:16,143  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-06 10:10:16,143  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-06 10:10:35,187  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:10:37,832  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-06 10:10:37,833  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-06 10:10:38,811  INFO [main] LogReports:21 - List of Hyper Link content[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:10:38,811  INFO [main] LogReports:21 - Hyper Link count9
+2019-08-06 10:10:38,812  INFO [main] LogReports:21 - Actual Title of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:10:38,812  INFO [main] LogReports:21 - ExpectedTitle of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:10:39,175  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:10:39,175  INFO [main] LogReports:21 - Read More count5
+2019-08-06 10:10:39,176  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:10:39,176  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:10:41,452  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-06 10:10:41,453  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-06 10:10:49,496  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-06 10:10:49,496  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-06 10:10:52,973  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-06 10:10:52,973  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-06 10:10:56,841  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-06 10:10:56,841  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-06 10:11:04,306  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:11:04,574  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:11:25,023  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:11:25,275  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:11:25,512  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:11:56,254  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:11:56,440  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:11:56,642  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:12:27,270  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:12:27,454  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:12:38,083  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:12:58,415  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:12:58,609  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:13:09,137  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (667d38a2e4dc7bd5ef71c96dab4a69ed)
+2019-08-06 10:21:37,713  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (3e1ff9b5c2a505348e51a644fbcad397)
+2019-08-06 10:21:40,357  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-06 10:21:40,357  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-06 10:21:40,985  INFO [main] LogReports:21 - List of Hyper Link content[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:21:40,986  INFO [main] LogReports:21 - Hyper Link count9
+2019-08-06 10:21:40,986  INFO [main] LogReports:21 - Actual Title of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:21:40,987  INFO [main] LogReports:21 - ExpectedTitle of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:21:41,267  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:21:41,268  INFO [main] LogReports:21 - Read More count5
+2019-08-06 10:21:41,268  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:21:41,269  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:21:43,314  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-06 10:21:43,315  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-06 10:21:50,813  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-06 10:21:50,814  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-06 10:21:54,567  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-06 10:21:54,569  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-06 10:21:58,331  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-06 10:21:58,331  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-06 10:22:05,905  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (3e1ff9b5c2a505348e51a644fbcad397)
+2019-08-06 10:22:06,125  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (3e1ff9b5c2a505348e51a644fbcad397)
+2019-08-06 10:22:26,572  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (3e1ff9b5c2a505348e51a644fbcad397)
+2019-08-06 10:22:26,760  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (3e1ff9b5c2a505348e51a644fbcad397)
+2019-08-06 10:22:26,956  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (3e1ff9b5c2a505348e51a644fbcad397)
+2019-08-06 10:22:57,761  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (3e1ff9b5c2a505348e51a644fbcad397)
+2019-08-06 10:22:57,955  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (3e1ff9b5c2a505348e51a644fbcad397)
+2019-08-06 10:22:58,156  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (3e1ff9b5c2a505348e51a644fbcad397)
+2019-08-06 10:30:24,784  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:30:27,536  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-06 10:30:27,536  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-06 10:30:28,255  INFO [main] LogReports:21 - List of Hyper Link content[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:30:28,256  INFO [main] LogReports:21 - Hyper Link count9
+2019-08-06 10:30:28,257  INFO [main] LogReports:21 - Actual Title of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:30:28,257  INFO [main] LogReports:21 - ExpectedTitle of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:30:28,561  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:30:28,562  INFO [main] LogReports:21 - Read More count5
+2019-08-06 10:30:28,562  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:30:28,562  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:30:30,650  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-06 10:30:30,650  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-06 10:30:38,418  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-06 10:30:38,419  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-06 10:30:42,636  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-06 10:30:42,638  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-06 10:30:46,503  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-06 10:30:46,503  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-06 10:30:53,884  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:30:54,895  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:30:55,330  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:30:57,523  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-06 10:30:57,523  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-06 10:31:04,818  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:31:05,880  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:31:06,095  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:31:09,032  INFO [main] LogReports:21 - Actual Title of the page:Cloud Infrastructure
+2019-08-06 10:31:09,033  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Infrastructure
+2019-08-06 10:31:15,100  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:31:16,128  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:31:16,338  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:31:19,516  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-06 10:31:19,516  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-06 10:31:26,350  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:31:27,357  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:31:27,833  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:31:30,025  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-06 10:31:30,025  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-06 10:31:35,868  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:31:36,052  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:31:46,614  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (5d319f4b2f778d2628e6ee8d9df0a354)
+2019-08-06 10:33:50,597  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:33:53,324  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-06 10:33:53,324  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-06 10:33:54,589  INFO [main] LogReports:21 - List of Hyper Link content[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:33:54,590  INFO [main] LogReports:21 - Hyper Link count9
+2019-08-06 10:33:54,590  INFO [main] LogReports:21 - Actual Title of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:33:54,590  INFO [main] LogReports:21 - ExpectedTitle of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:33:55,188  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:33:55,188  INFO [main] LogReports:21 - Read More count5
+2019-08-06 10:33:55,188  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:33:55,189  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:33:57,493  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-06 10:33:57,494  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-06 10:34:07,981  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-06 10:34:07,981  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-06 10:34:12,114  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-06 10:34:12,115  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-06 10:34:16,407  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-06 10:34:16,407  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-06 10:34:24,002  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:34:24,798  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:34:25,553  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:34:28,061  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-06 10:34:28,061  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-06 10:34:33,757  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:34:34,799  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:34:35,008  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:34:37,524  INFO [main] LogReports:21 - Actual Title of the page:Cloud Infrastructure
+2019-08-06 10:34:37,525  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Infrastructure
+2019-08-06 10:34:44,859  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:34:45,897  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:34:46,104  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:34:48,457  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-06 10:34:48,457  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-06 10:34:54,827  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:34:55,327  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:34:55,855  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:34:57,942  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-06 10:34:57,942  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-06 10:35:05,317  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:35:06,370  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:35:07,458  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b753eb88e107119e16b982bede55075f)
+2019-08-06 10:35:09,770  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-06 10:35:09,770  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-06 10:36:01,190  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:36:05,510  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-06 10:36:05,511  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-06 10:36:06,431  INFO [main] LogReports:21 - List of Hyper Link content[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:36:06,432  INFO [main] LogReports:21 - Hyper Link count9
+2019-08-06 10:36:06,432  INFO [main] LogReports:21 - Actual Title of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:36:06,432  INFO [main] LogReports:21 - ExpectedTitle of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:36:06,797  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:36:06,797  INFO [main] LogReports:21 - Read More count5
+2019-08-06 10:36:06,798  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:36:06,799  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:36:08,578  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-06 10:36:08,579  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-06 10:36:16,351  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-06 10:36:16,351  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-06 10:36:20,405  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-06 10:36:20,406  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-06 10:36:24,354  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-06 10:36:24,355  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-06 10:36:30,875  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:36:31,941  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:36:32,455  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:36:34,566  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-06 10:36:34,566  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-06 10:36:40,543  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:36:41,631  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:36:41,833  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:36:44,523  INFO [main] LogReports:21 - Actual Title of the page:Cloud Infrastructure
+2019-08-06 10:36:44,523  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Infrastructure
+2019-08-06 10:36:50,547  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:36:51,649  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:36:51,842  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:36:54,463  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-06 10:36:54,463  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-06 10:37:00,400  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:37:00,912  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:37:01,412  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:37:04,441  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-06 10:37:04,441  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-06 10:37:10,951  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:37:12,014  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:37:12,516  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (8318a887ff6dee2ce1b3c28f235577a0)
+2019-08-06 10:37:14,909  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-06 10:37:14,909  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-06 10:37:48,496  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:37:51,329  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-06 10:37:51,329  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-06 10:37:52,458  INFO [main] LogReports:21 - List of Hyper Link content[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:37:52,459  INFO [main] LogReports:21 - Hyper Link count9
+2019-08-06 10:37:52,459  INFO [main] LogReports:21 - Actual Title of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:37:52,460  INFO [main] LogReports:21 - ExpectedTitle of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:37:52,969  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:37:52,969  INFO [main] LogReports:21 - Read More count5
+2019-08-06 10:37:52,970  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:37:52,971  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:37:55,226  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-06 10:37:55,226  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-06 10:38:04,523  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-06 10:38:04,524  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-06 10:38:08,867  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-06 10:38:08,869  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-06 10:38:14,691  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-06 10:38:14,692  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-06 10:38:26,019  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:38:27,227  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:38:28,791  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:38:31,907  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-06 10:38:31,908  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-06 10:38:43,495  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:38:46,183  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:38:46,851  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:38:51,847  INFO [main] LogReports:21 - Actual Title of the page:Cloud Infrastructure
+2019-08-06 10:38:51,847  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Infrastructure
+2019-08-06 10:39:02,153  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:39:02,799  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:39:03,085  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:39:06,537  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-06 10:39:06,538  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-06 10:39:13,419  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:39:14,373  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:39:15,102  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:39:17,576  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-06 10:39:17,577  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-06 10:39:25,076  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:39:25,919  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:39:26,809  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (b4ee6b511a275d529c3cf8d1ed161af5)
+2019-08-06 10:39:31,211  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-06 10:39:31,212  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-06 10:41:48,803  INFO [main] LogReports:21 - Actual Title of the page:Services
+2019-08-06 10:41:48,808  INFO [main] LogReports:21 - ExpectedTitle of the page:Services
+2019-08-06 10:41:49,782  INFO [main] LogReports:21 - List of Hyper Link content[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:41:49,783  INFO [main] LogReports:21 - Hyper Link count11
+2019-08-06 10:41:49,783  INFO [main] LogReports:21 - Actual Title of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:41:49,783  INFO [main] LogReports:21 - ExpectedTitle of the page:[Enterprise Analytics, Cloud Services, Product Engineering, Automation Engineering, Mobile Computing, Digital Life, Infrastructure Services, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:41:50,213  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:41:50,214  INFO [main] LogReports:21 - Read More count7
+2019-08-06 10:41:50,214  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:41:50,215  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:41:53,820  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-06 10:41:53,820  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-06 10:42:00,060  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-06 10:42:00,061  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-06 10:42:08,352  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-06 10:42:08,354  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-06 10:42:15,673  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-06 10:42:15,674  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-06 10:42:22,747  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-06 10:42:22,748  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-06 10:42:30,775  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-06 10:42:30,775  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-06 10:42:37,632  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-06 10:42:37,633  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-06 10:42:43,682  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-06 10:42:43,682  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-06 10:42:50,112  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-06 10:42:50,113  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-06 10:42:55,632  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-06 10:42:55,632  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-06 10:43:01,015  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-06 10:43:01,015  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-06 10:43:06,344  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-06 10:43:06,344  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-06 10:43:10,258  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-06 10:43:10,259  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-06 10:43:14,368  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-06 10:43:14,368  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-06 10:43:36,279  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:43:39,468  INFO [main] LogReports:21 - Actual Title of the page:Digital Life
+2019-08-06 10:43:39,469  INFO [main] LogReports:21 - ExpectedTitle of the page:Digital Life
+2019-08-06 10:43:40,363  INFO [main] LogReports:21 - List of Hyper Link content[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-06 10:43:40,363  INFO [main] LogReports:21 - Hyper Link count5
+2019-08-06 10:43:40,364  INFO [main] LogReports:21 - Actual Title of the page:[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-06 10:43:40,365  INFO [main] LogReports:21 - ExpectedTitle of the page:[Artificial Intelligence / Machine Learning, Augmented Reality / Virtual Reality, Blockchain, Robotic Process Automation & ChatBOTs, Internet of Things]
+2019-08-06 10:43:40,990  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:43:40,991  INFO [main] LogReports:21 - Read More count5
+2019-08-06 10:43:40,992  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:43:40,992  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:43:43,963  INFO [main] LogReports:21 - Actual Title of the page:Artificial Intelligence / Machine Learning
+2019-08-06 10:43:43,964  INFO [main] LogReports:21 - ExpectedTitle of the page:Artificial Intelligence / Machine Learning
+2019-08-06 10:43:50,880  INFO [main] LogReports:21 - Actual Title of the page:Augmented Reality / Virtual Reality
+2019-08-06 10:43:50,881  INFO [main] LogReports:21 - ExpectedTitle of the page:Augmented Reality / Virtual Reality
+2019-08-06 10:43:55,611  INFO [main] LogReports:21 - Actual Title of the page:Blockchain
+2019-08-06 10:43:55,612  INFO [main] LogReports:21 - ExpectedTitle of the page:Blockchain
+2019-08-06 10:44:00,951  INFO [main] LogReports:21 - Actual Title of the page:Robotic Process Automation & ChatBOTs
+2019-08-06 10:44:00,952  INFO [main] LogReports:21 - ExpectedTitle of the page:Robotic Process Automation & ChatBOTs
+2019-08-06 10:44:06,220  INFO [main] LogReports:21 - Actual Title of the page:Internet of Things
+2019-08-06 10:44:06,221  INFO [main] LogReports:21 - ExpectedTitle of the page:Internet of Things
+2019-08-06 10:44:15,406  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:44:16,107  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:44:16,534  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:44:19,858  INFO [main] LogReports:21 - Actual Title of the page:Artificial Intelligence / Machine Learning
+2019-08-06 10:44:19,859  INFO [main] LogReports:21 - ExpectedTitle of the page:Artificial Intelligence / Machine Learning
+2019-08-06 10:44:27,042  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:44:27,539  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:44:27,980  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:44:30,936  INFO [main] LogReports:21 - Actual Title of the page:Augmented Reality / Virtual Reality
+2019-08-06 10:44:30,936  INFO [main] LogReports:21 - ExpectedTitle of the page:Augmented Reality / Virtual Reality
+2019-08-06 10:44:39,663  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:44:40,189  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:44:40,952  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:44:43,471  INFO [main] LogReports:21 - Actual Title of the page:Blockchain
+2019-08-06 10:44:43,472  INFO [main] LogReports:21 - ExpectedTitle of the page:Blockchain
+2019-08-06 10:44:51,217  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:44:51,942  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:44:52,705  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:44:55,769  INFO [main] LogReports:21 - Actual Title of the page:Robotic Process Automation & ChatBOTs
+2019-08-06 10:44:55,769  INFO [main] LogReports:21 - ExpectedTitle of the page:Robotic Process Automation & ChatBOTs
+2019-08-06 10:45:03,638  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:45:04,059  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:45:05,237  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (99beddbd3ff6a9531a7e8468059c37b6)
+2019-08-06 10:45:07,617  INFO [main] LogReports:21 - Actual Title of the page:Internet of Things
+2019-08-06 10:45:07,617  INFO [main] LogReports:21 - ExpectedTitle of the page:Internet of Things
+2019-08-06 10:45:33,676  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (93db791721f68f6f40b7f5f43e031526)
+2019-08-06 10:45:38,673  INFO [main] LogReports:21 - Actual Title of the page:Cloud Services
+2019-08-06 10:45:38,674  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Services
+2019-08-06 10:46:06,076  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (3833e4079d5d1fdd51142a9b2ac6806f)
+2019-08-06 10:46:10,791  INFO [main] LogReports:21 - Actual Title of the page:Enterprise Analytics
+2019-08-06 10:46:10,791  INFO [main] LogReports:21 - ExpectedTitle of the page:Enterprise Analytics
+2019-08-06 10:46:38,058  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (d5095eec00c29da522cda8d131a10fe3)
+2019-08-06 10:46:42,091  INFO [main] LogReports:21 - Actual Title of the page:Mobile Computing
+2019-08-06 10:46:42,092  INFO [main] LogReports:21 - ExpectedTitle of the page:Mobile Computing
+2019-08-06 10:47:05,449  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (0c53b3db1d6583245b2324e1b1fe57ec)
+2019-08-06 10:47:09,547  INFO [main] LogReports:21 - Actual Title of the page:Product Engineering
+2019-08-06 10:47:09,548  INFO [main] LogReports:21 - ExpectedTitle of the page:Product Engineering
+2019-08-06 10:47:36,952  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (60bb44ecd5b740fca2661e556e2b390f)
+2019-08-06 10:47:41,902  INFO [main] LogReports:21 - Actual Title of the page:Quality Engineering
+2019-08-06 10:47:41,904  INFO [main] LogReports:21 - ExpectedTitle of the page:Quality Engineering
+2019-08-06 10:48:07,462  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:48:11,653  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Services
+2019-08-06 10:48:11,654  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Services
+2019-08-06 10:48:13,334  INFO [main] LogReports:21 - List of Hyper Link content[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:48:13,336  INFO [main] LogReports:21 - Hyper Link count9
+2019-08-06 10:48:13,338  INFO [main] LogReports:21 - Actual Title of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:48:13,339  INFO [main] LogReports:21 - ExpectedTitle of the page:[Infrastructure Management, Cloud, Infrastructure Automation with Devops, NOC Services, Data Center Management, Sitemap, Services, Careers, Contact Us]
+2019-08-06 10:48:14,032  INFO [main] LogReports:21 - List of Read More content[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:48:14,032  INFO [main] LogReports:21 - Read More count5
+2019-08-06 10:48:14,033  INFO [main] LogReports:21 - Actual Title of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:48:14,033  INFO [main] LogReports:21 - ExpectedTitle of the page:[Read More, Read More, Read More, Read More, Read More]
+2019-08-06 10:48:17,305  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-06 10:48:17,305  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-06 10:48:30,006  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-06 10:48:30,007  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-06 10:48:37,020  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-06 10:48:37,021  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-06 10:48:44,141  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-06 10:48:44,142  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management
+2019-08-06 10:48:56,272  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:48:58,098  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:48:59,633  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:49:04,255  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Management
+2019-08-06 10:49:04,256  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Management
+2019-08-06 10:49:15,792  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:49:17,060  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:49:17,586  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:49:23,802  INFO [main] LogReports:21 - Actual Title of the page:Cloud Infrastructure
+2019-08-06 10:49:23,802  INFO [main] LogReports:21 - ExpectedTitle of the page:Cloud Infrastructure
+2019-08-06 10:49:36,172  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:49:39,455  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:49:40,279  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:49:43,872  INFO [main] LogReports:21 - Actual Title of the page:Infrastructure Automation with Devops
+2019-08-06 10:49:43,885  INFO [main] LogReports:21 - ExpectedTitle of the page:Infrastructure Automation with Devops
+2019-08-06 10:49:53,867  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:49:55,288  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:49:56,983  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:50:00,548  INFO [main] LogReports:21 - Actual Title of the page:NOC Services
+2019-08-06 10:50:00,549  INFO [main] LogReports:21 - ExpectedTitle of the page:NOC Services
+2019-08-06 10:50:11,943  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:50:12,902  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:50:14,052  INFO [main] LogReports:21 - Driver:ChromeDriver: chrome on XP (274f68167d6997d90019a10017eea468)
+2019-08-06 10:50:18,883  INFO [main] LogReports:21 - Actual Title of the page:Data Center Management
+2019-08-06 10:50:18,883  INFO [main] LogReports:21 - ExpectedTitle of the page:Data Center Management

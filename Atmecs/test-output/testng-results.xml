@@ -1,753 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="10" total="18" passed="8">
+<testng-results skipped="0" failed="0" total="18" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="531827" started-at="2019-08-05T14:36:56Z" finished-at="2019-08-05T14:45:48Z">
+  <suite name="Suite" duration-ms="538420" started-at="2019-08-06T05:11:30Z" finished-at="2019-08-06T05:20:28Z">
     <groups>
     </groups>
-    <test name="test1" duration-ms="127770" started-at="2019-08-05T14:36:56Z" finished-at="2019-08-05T14:39:04Z">
+    <test name="test1" duration-ms="109295" started-at="2019-08-06T05:11:30Z" finished-at="2019-08-06T05:13:19Z">
       <class name="com.atmecs.qa.testscripts.TestServicePage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="preSetup" is-config="true" duration-ms="20885" started-at="2019-08-05T20:06:56Z" finished-at="2019-08-05T20:07:17Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="preSetup" is-config="true" duration-ms="15382" started-at="2019-08-06T10:41:30Z" finished-at="2019-08-06T10:41:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="testServicePageClick" duration-ms="101219" started-at="2019-08-05T20:07:17Z" finished-at="2019-08-05T20:08:58Z">
+        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="testServicePageClick" duration-ms="92797" started-at="2019-08-06T10:41:45Z" finished-at="2019-08-06T10:43:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testServicePageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="tearDown" is-config="true" duration-ms="5636" started-at="2019-08-05T20:08:58Z" finished-at="2019-08-05T20:09:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="tearDown" is-config="true" duration-ms="1090" started-at="2019-08-06T10:43:18Z" finished-at="2019-08-06T10:43:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestServicePage -->
     </test> <!-- test1 -->
-    <test name="test2" duration-ms="83326" started-at="2019-08-05T14:39:04Z" finished-at="2019-08-05T14:40:27Z">
+    <test name="test2" duration-ms="116228" started-at="2019-08-06T05:13:19Z" finished-at="2019-08-06T05:15:15Z">
       <class name="com.atmecs.qa.testscripts.TestDigitalLifePage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="preSetup" is-config="true" duration-ms="18070" started-at="2019-08-05T20:09:04Z" finished-at="2019-08-05T20:09:22Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="preSetup" is-config="true" duration-ms="15866" started-at="2019-08-06T10:43:19Z" finished-at="2019-08-06T10:43:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testDigitalLifePageClick()[pri:1, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testDigitalLifePageClick" duration-ms="45397" started-at="2019-08-05T20:09:22Z" finished-at="2019-08-05T20:10:07Z">
+        <test-method status="PASS" signature="testDigitalLifePageClick()[pri:1, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testDigitalLifePageClick" duration-ms="39557" started-at="2019-08-06T10:43:35Z" finished-at="2019-08-06T10:44:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDigitalLifePageClick -->
-        <test-method status="FAIL" signature="testArtificialIntelligencePageClick()[pri:2, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testArtificialIntelligencePageClick" duration-ms="1908" started-at="2019-08-05T20:10:07Z" finished-at="2019-08-05T20:10:09Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 17024, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e32e8613-4eda-4f62-b5d2-6cf719e48a1b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 17024, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e32e8613-4eda-4f62-b5d2-6cf719e48a1b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at com.atmecs.qa.utils.CommonUtilityMethods.performMouseOverInServiceMenu(CommonUtilityMethods.java:31)
-	at com.atmecs.qa.pages.DigitalLifePage.artificial_intelligence_submenu(DigitalLifePage.java:140)
-	at com.atmecs.qa.testscripts.TestDigitalLifePage.testArtificialIntelligencePageClick(TestDigitalLifePage.java:43)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="testArtificialIntelligencePageClick()[pri:2, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testArtificialIntelligencePageClick" duration-ms="11446" started-at="2019-08-06T10:44:14Z" finished-at="2019-08-06T10:44:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testArtificialIntelligencePageClick -->
-        <test-method status="FAIL" signature="testVirtualRealityPageClick()[pri:3, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testVirtualRealityPageClick" duration-ms="777" started-at="2019-08-05T20:10:09Z" finished-at="2019-08-05T20:10:10Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 17024, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e32e8613-4eda-4f62-b5d2-6cf719e48a1b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 17024, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e32e8613-4eda-4f62-b5d2-6cf719e48a1b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at com.atmecs.qa.utils.CommonUtilityMethods.performMouseOverInServiceMenu(CommonUtilityMethods.java:31)
-	at com.atmecs.qa.pages.DigitalLifePage.virtual_reality_submenu(DigitalLifePage.java:158)
-	at com.atmecs.qa.testscripts.TestDigitalLifePage.testVirtualRealityPageClick(TestDigitalLifePage.java:52)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="testVirtualRealityPageClick()[pri:3, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testVirtualRealityPageClick" duration-ms="12713" started-at="2019-08-06T10:44:26Z" finished-at="2019-08-06T10:44:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVirtualRealityPageClick -->
-        <test-method status="FAIL" signature="testBlockchainPageClick()[pri:4, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testBlockchainPageClick" duration-ms="1274" started-at="2019-08-05T20:10:10Z" finished-at="2019-08-05T20:10:11Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 17024, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e32e8613-4eda-4f62-b5d2-6cf719e48a1b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 17024, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e32e8613-4eda-4f62-b5d2-6cf719e48a1b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at com.atmecs.qa.utils.CommonUtilityMethods.performMouseOverInServiceMenu(CommonUtilityMethods.java:31)
-	at com.atmecs.qa.pages.DigitalLifePage.blockchain_submenu(DigitalLifePage.java:176)
-	at com.atmecs.qa.testscripts.TestDigitalLifePage.testBlockchainPageClick(TestDigitalLifePage.java:61)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="testBlockchainPageClick()[pri:4, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testBlockchainPageClick" duration-ms="11805" started-at="2019-08-06T10:44:39Z" finished-at="2019-08-06T10:44:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBlockchainPageClick -->
-        <test-method status="FAIL" signature="testRoboticPageClick()[pri:5, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testRoboticPageClick" duration-ms="1932" started-at="2019-08-05T20:10:11Z" finished-at="2019-08-05T20:10:13Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 17024, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e32e8613-4eda-4f62-b5d2-6cf719e48a1b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 17024, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e32e8613-4eda-4f62-b5d2-6cf719e48a1b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at com.atmecs.qa.utils.CommonUtilityMethods.performMouseOverInServiceMenu(CommonUtilityMethods.java:31)
-	at com.atmecs.qa.pages.DigitalLifePage.robotic_submenu(DigitalLifePage.java:194)
-	at com.atmecs.qa.testscripts.TestDigitalLifePage.testRoboticPageClick(TestDigitalLifePage.java:70)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="testRoboticPageClick()[pri:5, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testRoboticPageClick" duration-ms="12526" started-at="2019-08-06T10:44:50Z" finished-at="2019-08-06T10:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRoboticPageClick -->
-        <test-method status="FAIL" signature="testInternetOfThingsPageClick()[pri:6, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testInternetOfThingsPageClick" duration-ms="2422" started-at="2019-08-05T20:10:13Z" finished-at="2019-08-05T20:10:16Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 17024, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e32e8613-4eda-4f62-b5d2-6cf719e48a1b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 17024, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e32e8613-4eda-4f62-b5d2-6cf719e48a1b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at com.atmecs.qa.utils.CommonUtilityMethods.performMouseOverInServiceMenu(CommonUtilityMethods.java:31)
-	at com.atmecs.qa.pages.DigitalLifePage.internetofthings_submenu(DigitalLifePage.java:213)
-	at com.atmecs.qa.testscripts.TestDigitalLifePage.testInternetOfThingsPageClick(TestDigitalLifePage.java:79)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="testInternetOfThingsPageClick()[pri:6, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testInternetOfThingsPageClick" duration-ms="11199" started-at="2019-08-06T10:45:03Z" finished-at="2019-08-06T10:45:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInternetOfThingsPageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="11422" started-at="2019-08-05T20:10:16Z" finished-at="2019-08-05T20:10:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="1107" started-at="2019-08-06T10:45:14Z" finished-at="2019-08-06T10:45:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestDigitalLifePage -->
     </test> <!-- test2 -->
-    <test name="test3" duration-ms="45057" started-at="2019-08-05T14:40:27Z" finished-at="2019-08-05T14:41:12Z">
+    <test name="test3" duration-ms="31959" started-at="2019-08-06T05:15:15Z" finished-at="2019-08-06T05:15:47Z">
       <class name="com.atmecs.qa.testscripts.TestCloudServicesPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="preSetup" is-config="true" duration-ms="24190" started-at="2019-08-05T20:10:27Z" finished-at="2019-08-05T20:10:51Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="preSetup" is-config="true" duration-ms="16765" started-at="2019-08-06T10:45:15Z" finished-at="2019-08-06T10:45:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testCloudServicesPageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="testCloudServicesPageClick" duration-ms="12867" started-at="2019-08-05T20:10:51Z" finished-at="2019-08-05T20:11:04Z">
+        <test-method status="PASS" signature="testCloudServicesPageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="testCloudServicesPageClick" duration-ms="13773" started-at="2019-08-06T10:45:32Z" finished-at="2019-08-06T10:45:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCloudServicesPageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="tearDown" is-config="true" duration-ms="7996" started-at="2019-08-05T20:11:04Z" finished-at="2019-08-05T20:11:12Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="tearDown" is-config="true" duration-ms="1419" started-at="2019-08-06T10:45:46Z" finished-at="2019-08-06T10:45:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestCloudServicesPage -->
     </test> <!-- test3 -->
-    <test name="test4" duration-ms="48999" started-at="2019-08-05T14:41:12Z" finished-at="2019-08-05T14:42:01Z">
+    <test name="test4" duration-ms="32272" started-at="2019-08-06T05:15:47Z" finished-at="2019-08-06T05:16:19Z">
       <class name="com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="preSetup" is-config="true" duration-ms="25814" started-at="2019-08-05T20:11:12Z" finished-at="2019-08-05T20:11:38Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="preSetup" is-config="true" duration-ms="17044" started-at="2019-08-06T10:45:47Z" finished-at="2019-08-06T10:46:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="testServicePageClick" duration-ms="14826" started-at="2019-08-05T20:11:38Z" finished-at="2019-08-05T20:11:53Z">
+        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="testServicePageClick" duration-ms="13673" started-at="2019-08-06T10:46:04Z" finished-at="2019-08-06T10:46:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testServicePageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="tearDown" is-config="true" duration-ms="8354" started-at="2019-08-05T20:11:53Z" finished-at="2019-08-05T20:12:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="tearDown" is-config="true" duration-ms="1552" started-at="2019-08-06T10:46:18Z" finished-at="2019-08-06T10:46:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage -->
     </test> <!-- test4 -->
-    <test name="test5" duration-ms="51313" started-at="2019-08-05T14:42:01Z" finished-at="2019-08-05T14:42:53Z">
+    <test name="test5" duration-ms="29494" started-at="2019-08-06T05:16:19Z" finished-at="2019-08-06T05:16:49Z">
       <class name="com.atmecs.qa.testscripts.TestMobileComputingPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="preSetup" is-config="true" duration-ms="24748" started-at="2019-08-05T20:12:01Z" finished-at="2019-08-05T20:12:26Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="preSetup" is-config="true" duration-ms="17274" started-at="2019-08-06T10:46:19Z" finished-at="2019-08-06T10:46:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="testServicePageClick" duration-ms="16598" started-at="2019-08-05T20:12:26Z" finished-at="2019-08-05T20:12:43Z">
+        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="testServicePageClick" duration-ms="10559" started-at="2019-08-06T10:46:37Z" finished-at="2019-08-06T10:46:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testServicePageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="tearDown" is-config="true" duration-ms="9957" started-at="2019-08-05T20:12:43Z" finished-at="2019-08-05T20:12:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="tearDown" is-config="true" duration-ms="1659" started-at="2019-08-06T10:46:47Z" finished-at="2019-08-06T10:46:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestMobileComputingPage -->
     </test> <!-- test5 -->
-    <test name="test6" duration-ms="46393" started-at="2019-08-05T14:42:53Z" finished-at="2019-08-05T14:43:39Z">
+    <test name="test6" duration-ms="29611" started-at="2019-08-06T05:16:49Z" finished-at="2019-08-06T05:17:19Z">
       <class name="com.atmecs.qa.testscripts.TestProductEngineeringPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="preSetup" is-config="true" duration-ms="20445" started-at="2019-08-05T20:12:53Z" finished-at="2019-08-05T20:13:13Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="preSetup" is-config="true" duration-ms="15478" started-at="2019-08-06T10:46:49Z" finished-at="2019-08-06T10:47:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="testServicePageClick" duration-ms="13656" started-at="2019-08-05T20:13:13Z" finished-at="2019-08-05T20:13:27Z">
+        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="testServicePageClick" duration-ms="12180" started-at="2019-08-06T10:47:04Z" finished-at="2019-08-06T10:47:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testServicePageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="tearDown" is-config="true" duration-ms="12282" started-at="2019-08-05T20:13:27Z" finished-at="2019-08-05T20:13:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="tearDown" is-config="true" duration-ms="1949" started-at="2019-08-06T10:47:17Z" finished-at="2019-08-06T10:47:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestProductEngineeringPage -->
     </test> <!-- test6 -->
-    <test name="test7" duration-ms="43003" started-at="2019-08-05T14:43:39Z" finished-at="2019-08-05T14:44:22Z">
+    <test name="test7" duration-ms="32622" started-at="2019-08-06T05:17:19Z" finished-at="2019-08-06T05:17:51Z">
       <class name="com.atmecs.qa.testscripts.TestQualityEngineeringPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="preSetup" is-config="true" duration-ms="22642" started-at="2019-08-05T20:13:39Z" finished-at="2019-08-05T20:14:02Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="preSetup" is-config="true" duration-ms="16465" started-at="2019-08-06T10:47:19Z" finished-at="2019-08-06T10:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="testServicePageClick" duration-ms="12205" started-at="2019-08-05T20:14:02Z" finished-at="2019-08-05T20:14:14Z">
+        <test-method status="PASS" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="testServicePageClick" duration-ms="14336" started-at="2019-08-06T10:47:35Z" finished-at="2019-08-06T10:47:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testServicePageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="tearDown" is-config="true" duration-ms="8152" started-at="2019-08-05T20:14:14Z" finished-at="2019-08-05T20:14:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="tearDown" is-config="true" duration-ms="1815" started-at="2019-08-06T10:47:49Z" finished-at="2019-08-06T10:47:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestQualityEngineeringPage -->
     </test> <!-- test7 -->
-    <test name="test8" duration-ms="85809" started-at="2019-08-05T14:44:22Z" finished-at="2019-08-05T14:45:48Z">
+    <test name="test8" duration-ms="156817" started-at="2019-08-06T05:17:51Z" finished-at="2019-08-06T05:20:28Z">
       <class name="com.atmecs.qa.testscripts.TestInfrastructureServicesPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="preSetup" is-config="true" duration-ms="22535" started-at="2019-08-05T20:14:22Z" finished-at="2019-08-05T20:14:45Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="preSetup" is-config="true" duration-ms="14558" started-at="2019-08-06T10:47:51Z" finished-at="2019-08-06T10:48:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testInfrastructureServicePageClick()[pri:1, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testInfrastructureServicePageClick" duration-ms="52768" started-at="2019-08-05T20:14:45Z" finished-at="2019-08-05T20:15:37Z">
+        <test-method status="PASS" signature="testInfrastructureServicePageClick()[pri:1, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testInfrastructureServicePageClick" duration-ms="48845" started-at="2019-08-06T10:48:06Z" finished-at="2019-08-06T10:48:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInfrastructureServicePageClick -->
-        <test-method status="FAIL" signature="testInfrastructureManagementPageClick()[pri:2, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testInfrastructureManagementPageClick" duration-ms="520" started-at="2019-08-05T20:15:37Z" finished-at="2019-08-05T20:15:38Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d7a66398-524a-45fb-b2e9-061b6d5529e0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d7a66398-524a-45fb-b2e9-061b6d5529e0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at com.atmecs.qa.utils.CommonUtilityMethods.performMouseOverInServiceMenu(CommonUtilityMethods.java:31)
-	at com.atmecs.qa.pages.InfrastructureServicesPage.infrastructure_management_submenu(InfrastructureServicesPage.java:124)
-	at com.atmecs.qa.testscripts.TestInfrastructureServicesPage.testInfrastructureManagementPageClick(TestInfrastructureServicesPage.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="testInfrastructureManagementPageClick()[pri:2, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testInfrastructureManagementPageClick" duration-ms="19750" started-at="2019-08-06T10:48:55Z" finished-at="2019-08-06T10:49:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInfrastructureManagementPageClick -->
-        <test-method status="FAIL" signature="testCloudInfrastructurePageClick()[pri:3, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testCloudInfrastructurePageClick" duration-ms="748" started-at="2019-08-05T20:15:38Z" finished-at="2019-08-05T20:15:39Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d7a66398-524a-45fb-b2e9-061b6d5529e0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d7a66398-524a-45fb-b2e9-061b6d5529e0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at com.atmecs.qa.utils.CommonUtilityMethods.performMouseOverInServiceMenu(CommonUtilityMethods.java:31)
-	at com.atmecs.qa.pages.InfrastructureServicesPage.cloud_infrastructure_submenu(InfrastructureServicesPage.java:144)
-	at com.atmecs.qa.testscripts.TestInfrastructureServicesPage.testCloudInfrastructurePageClick(TestInfrastructureServicesPage.java:48)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="testCloudInfrastructurePageClick()[pri:3, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testCloudInfrastructurePageClick" duration-ms="20435" started-at="2019-08-06T10:49:14Z" finished-at="2019-08-06T10:49:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCloudInfrastructurePageClick -->
-        <test-method status="FAIL" signature="testDevopsPageClick()[pri:4, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testDevopsPageClick" duration-ms="595" started-at="2019-08-05T20:15:39Z" finished-at="2019-08-05T20:15:39Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d7a66398-524a-45fb-b2e9-061b6d5529e0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d7a66398-524a-45fb-b2e9-061b6d5529e0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at com.atmecs.qa.utils.CommonUtilityMethods.performMouseOverInServiceMenu(CommonUtilityMethods.java:31)
-	at com.atmecs.qa.pages.InfrastructureServicesPage.devops_submenu(InfrastructureServicesPage.java:163)
-	at com.atmecs.qa.testscripts.TestInfrastructureServicesPage.testDevopsPageClick(TestInfrastructureServicesPage.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="testDevopsPageClick()[pri:4, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testDevopsPageClick" duration-ms="17974" started-at="2019-08-06T10:49:35Z" finished-at="2019-08-06T10:49:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDevopsPageClick -->
-        <test-method status="FAIL" signature="testNOCServicesPageClick()[pri:5, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testNOCServicesPageClick" duration-ms="787" started-at="2019-08-05T20:15:39Z" finished-at="2019-08-05T20:15:40Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d7a66398-524a-45fb-b2e9-061b6d5529e0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d7a66398-524a-45fb-b2e9-061b6d5529e0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at com.atmecs.qa.utils.CommonUtilityMethods.performMouseOverInServiceMenu(CommonUtilityMethods.java:31)
-	at com.atmecs.qa.pages.InfrastructureServicesPage.NOC_services_submenu(InfrastructureServicesPage.java:182)
-	at com.atmecs.qa.testscripts.TestInfrastructureServicesPage.testNOCServicesPageClick(TestInfrastructureServicesPage.java:64)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="testNOCServicesPageClick()[pri:5, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testNOCServicesPageClick" duration-ms="17762" started-at="2019-08-06T10:49:53Z" finished-at="2019-08-06T10:50:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNOCServicesPageClick -->
-        <test-method status="FAIL" signature="testDataCenterManagementPageClick()[pri:6, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testDataCenterManagementPageClick" duration-ms="955" started-at="2019-08-05T20:15:40Z" finished-at="2019-08-05T20:15:41Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d7a66398-524a-45fb-b2e9-061b6d5529e0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: rect is undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\Anne.Sivakumar\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d7a66398-524a-45fb-b2e9-061b6d5529e0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at com.atmecs.qa.utils.CommonUtilityMethods.performMouseOverInServiceMenu(CommonUtilityMethods.java:31)
-	at com.atmecs.qa.pages.InfrastructureServicesPage.datacenter_management_submenu(InfrastructureServicesPage.java:202)
-	at com.atmecs.qa.testscripts.TestInfrastructureServicesPage.testDataCenterManagementPageClick(TestInfrastructureServicesPage.java:72)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="testDataCenterManagementPageClick()[pri:6, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testDataCenterManagementPageClick" duration-ms="16197" started-at="2019-08-06T10:50:11Z" finished-at="2019-08-06T10:50:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataCenterManagementPageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="tearDown" is-config="true" duration-ms="6838" started-at="2019-08-05T20:15:41Z" finished-at="2019-08-05T20:15:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="tearDown" is-config="true" duration-ms="1281" started-at="2019-08-06T10:50:27Z" finished-at="2019-08-06T10:50:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

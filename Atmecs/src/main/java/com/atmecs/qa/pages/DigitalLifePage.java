@@ -106,6 +106,7 @@ public class DigitalLifePage {
 	//perform mouse over operation by passing xpath as parameter
 	public void clickservicemenu(WebDriver driver) {
 		By reading_service_xpath = helperobject.read_xpath(driver, "servicemenu", propertyfilepath);
+		helperobject.waitForTheElement(driver, "servicemenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_service_xpath);
 	}
 
