@@ -57,8 +57,8 @@ public class CommonUtilityMethods extends Base {
 		{
 			read_more_content.add(CountOfReadMore.getText());
 		}
-		log.info("List of Read More content"+read_more_content);
-		log.info("Read More count"+read_more_content.size());
+		log.info("List of Read More content:"+read_more_content);
+		log.info("Read More count:"+read_more_content.size());
 		return read_more_content;
 	}
 	
@@ -73,8 +73,8 @@ public class CommonUtilityMethods extends Base {
 			hyperlink_content.add(CountOfReadMore.getText());
 		    CountOfReadMore.getSize();
 		}
-		log.info("List of Hyper Link content"+hyperlink_content);
-		log.info("Hyper Link count"+hyperlink_content.size());
+		log.info("List of Hyper Link content:"+hyperlink_content);
+		log.info("Hyper Link count:"+hyperlink_content.size());
 		return hyperlink_content;
 	}
 	
@@ -82,13 +82,13 @@ public class CommonUtilityMethods extends Base {
    public void verifyAssertListOfText(List<String> actual, List<String> expected) 
     {
 	   log.info("Actual Title of the page:"+actual);
-	   log.info("ExpectedTitle of the page:"+expected);
+	   log.info("Expected Title of the page:"+expected);
 	   Assert.assertEquals(actual,expected,"passed");
 	}
    
  //perform click operation by passing xpath as parameter
 public void click(WebDriver driver,By clickxpath)
-	{
+	{    
 		 driver.findElement(clickxpath).click();		 
 	}
 	

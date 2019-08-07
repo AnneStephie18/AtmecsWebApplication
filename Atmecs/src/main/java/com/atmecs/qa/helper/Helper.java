@@ -18,13 +18,13 @@ public class Helper {
 	//load the property file and read the xpath 
 	public By read_xpath(WebDriver driver, String xpath, String loadpropertyfile) 
 	{
-		PagePath = loadpropertyfile;
-		base.readProperties(PagePath);
+		//PagePath = loadpropertyfile;
+		base.readProperties(loadpropertyfile);
 		return By.xpath(base.properties.getProperty(xpath));
 	}
 
 	//wait up to 10 seconds and check the element is visible/not 
-	public boolean waitForTheElement(WebDriver driver, String value) 
+	public boolean explixitWait(WebDriver driver, String value) 
 	{
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		try 

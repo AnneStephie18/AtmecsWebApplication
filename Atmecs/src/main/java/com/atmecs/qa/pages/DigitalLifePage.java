@@ -106,7 +106,7 @@ public class DigitalLifePage {
 	//perform mouse over operation by passing xpath as parameter
 	public void clickservicemenu(WebDriver driver) {
 		By reading_service_xpath = helperobject.read_xpath(driver, "servicemenu", propertyfilepath);
-		helperobject.waitForTheElement(driver, "servicemenu");
+		helperobject.explixitWait(driver, "servicemenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_service_xpath);
 	}
 
@@ -138,8 +138,10 @@ public class DigitalLifePage {
 	public void artificial_intelligence_submenu(WebDriver driver) {
 		clickservicemenu(driver);
 		By reading_artificial_intelligence_xpath = helperobject.read_xpath(driver, "artificial_intelligence_submenu",propertyfilepath);
+		helperobject.explixitWait(driver, "digital_life_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_digital_life_xpath);
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_artificial_intelligence_xpath);
+		helperobject.explixitWait(driver, "artificial_intelligence_submenu");
 		commmon_utility.click(driver, reading_artificial_intelligence_xpath);
 		printtitle(driver, "Artificial Intelligence / Machine Learning");
 		digital_life_icon(driver);
@@ -156,8 +158,10 @@ public class DigitalLifePage {
 	public void virtual_reality_submenu(WebDriver driver) {
 		clickservicemenu(driver);
 		By reading_virtual_reality_xpath = helperobject.read_xpath(driver, "virtual_reality_submenu", propertyfilepath);
+		helperobject.explixitWait(driver, "digital_life_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_digital_life_xpath);
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_virtual_reality_xpath);
+		helperobject.explixitWait(driver, "virtual_reality_submenu");
 		commmon_utility.click(driver, reading_virtual_reality_xpath);
 		printtitle(driver, "Augmented Reality / Virtual Reality");
 		digital_life_icon(driver);
@@ -174,8 +178,10 @@ public class DigitalLifePage {
 	public void blockchain_submenu(WebDriver driver) {
 		clickservicemenu(driver);
 		By reading_blockchain_xpath = helperobject.read_xpath(driver, "blockchain_submenu", propertyfilepath);
+		helperobject.explixitWait(driver, "digital_life_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_digital_life_xpath);
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_blockchain_xpath);
+		helperobject.explixitWait(driver, "blockchain_submenu");
 		commmon_utility.click(driver, reading_blockchain_xpath);
 		printtitle(driver, "Blockchain");
 		digital_life_icon(driver);
@@ -192,9 +198,10 @@ public class DigitalLifePage {
 	public void robotic_submenu(WebDriver driver) {
 		clickservicemenu(driver);
 		By reading_robotic_xpath = helperobject.read_xpath(driver, "robotic_submenu", propertyfilepath);
+		helperobject.explixitWait(driver, "digital_life_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_digital_life_xpath);
-		helperobject.waitForTheElement(driver, "robotic_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_robotic_xpath);
+		helperobject.explixitWait(driver, "robotic_submenu");
 		commmon_utility.click(driver, reading_robotic_xpath);
 		printtitle(driver, "Robotic Process Automation & ChatBOTs");
 		digital_life_icon(driver);
@@ -211,9 +218,10 @@ public class DigitalLifePage {
 	public void internetofthings_submenu(WebDriver driver) {
 		clickservicemenu(driver);
 		By reading_internetofthings_xpath = helperobject.read_xpath(driver, "internetofthings_submenu",propertyfilepath);
+		helperobject.explixitWait(driver, "digital_life_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_digital_life_xpath);
-		helperobject.waitForTheElement(driver, "internetofthings_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_internetofthings_xpath);
+		helperobject.explixitWait(driver, "internetofthings_submenu");
 		commmon_utility.click(driver, reading_internetofthings_xpath);
 		printtitle(driver, "Internet of Things");
 		digital_life_icon(driver);

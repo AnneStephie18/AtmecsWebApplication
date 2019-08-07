@@ -120,9 +120,9 @@ public class InfrastructureServicesPage {
 	public void infrastructure_management_submenu(WebDriver driver) {
 		digitallifepageobject.clickservicemenu(driver);
 		By reading_infrastructure_management_xpath = helperobject.read_xpath(driver,"infrastructure_management_submenu", propertyfilepath);
-		helperobject.waitForTheElement(driver, "infrastructure_services_submenu");
+		helperobject.explixitWait(driver, "infrastructure_services_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_infrastructure_services_xpath);
-		helperobject.waitForTheElement(driver, "infrastructure_management_submenu");
+		helperobject.explixitWait(driver, "infrastructure_management_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_infrastructure_management_xpath);
 		commmon_utility.click(driver, reading_infrastructure_management_xpath);
 		printtitle(driver, "Infrastructure Management");
@@ -140,10 +140,10 @@ public class InfrastructureServicesPage {
 	public void cloud_infrastructure_submenu(WebDriver driver) {
 		digitallifepageobject.clickservicemenu(driver);
 		By reading_cloud_infrastructure_xpath = helperobject.read_xpath(driver, "cloud_infrastructure_submenu",propertyfilepath);
-		helperobject.waitForTheElement(driver, "infrastructure_services_submenu");
+		helperobject.explixitWait(driver, "infrastructure_services_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_infrastructure_services_xpath);
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_cloud_infrastructure_xpath);
-		helperobject.waitForTheElement(driver, "cloud_infrastructure_submenu");
+		helperobject.explixitWait(driver, "cloud_infrastructure_submenu");
 		commmon_utility.click(driver, reading_cloud_infrastructure_xpath);
 		printtitle(driver, "Cloud Infrastructure");
 		infrastructure_services_icon(driver);
@@ -160,10 +160,10 @@ public class InfrastructureServicesPage {
 	public void devops_submenu(WebDriver driver) {
 		digitallifepageobject.clickservicemenu(driver);
 		By reading_devops_xpath = helperobject.read_xpath(driver, "devops_submenu", propertyfilepath);
-		helperobject.waitForTheElement(driver, "infrastructure_services_submenu");
+		helperobject.explixitWait(driver, "infrastructure_services_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_infrastructure_services_xpath);
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_devops_xpath);
-		helperobject.waitForTheElement(driver, "devops_submenu");
+		helperobject.explixitWait(driver, "devops_submenu");
 		commmon_utility.click(driver, reading_devops_xpath);
 		printtitle(driver, "Infrastructure Automation with Devops");
 		infrastructure_services_icon(driver);
@@ -180,9 +180,9 @@ public class InfrastructureServicesPage {
 	public void NOC_services_submenu(WebDriver driver) {
 		digitallifepageobject.clickservicemenu(driver);
 		By reading_NOC_services_xpath = helperobject.read_xpath(driver, "NOC_services_submenu", propertyfilepath);
-		helperobject.waitForTheElement(driver, "infrastructure_services_submenu");
+		helperobject.explixitWait(driver, "infrastructure_services_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_infrastructure_services_xpath);
-		helperobject.waitForTheElement(driver, "NOC_services_submenu");
+		helperobject.explixitWait(driver, "NOC_services_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_NOC_services_xpath);
 		commmon_utility.click(driver, reading_NOC_services_xpath);
 		printtitle(driver, "NOC Services");
@@ -200,11 +200,11 @@ public class InfrastructureServicesPage {
 	public void datacenter_management_submenu(WebDriver driver) {
 		digitallifepageobject.clickservicemenu(driver);
 		By reading_datacenter_management_xpath = helperobject.read_xpath(driver, "datacenter_management_submenu",propertyfilepath);
-		helperobject.waitForTheElement(driver, "infrastructure_services_submenu");
+		helperobject.explixitWait(driver, "infrastructure_services_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_infrastructure_services_xpath);
-		helperobject.waitForTheElement(driver, "datacenter_management_submenu");
+		//helperobject.explixitWait(driver, "datacenter_management_submenu");
 		commmon_utility.performMouseOverInServiceMenu(driver, reading_datacenter_management_xpath);
-		helperobject.waitForTheElement(driver, "datacenter_management_submenu");
+		helperobject.explixitWait(driver, "datacenter_management_submenu");
 		commmon_utility.click(driver, reading_datacenter_management_xpath);
 		printtitle(driver, "Data Center Management");
 		infrastructure_services_icon(driver);

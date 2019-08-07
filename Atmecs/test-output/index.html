@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">8 tests</span>
+                    <span class="test-stats">9 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods,   18 passed</span>
+                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.atmecs.qa.testscripts.TestServicePage" hash-for-method="testServicePageClick">testServicePageClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -182,11 +196,6 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.atmecs.qa.testscripts.TestServicePage" hash-for-method="testServicePageClick">testServicePageClick</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.atmecs.qa.testscripts.TestDigitalLifePage" hash-for-method="testVirtualRealityPageClick">testVirtualRealityPageClick</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -202,6 +211,42 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.atmecs.qa.testscripts.TestServicePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testServicePageClick">
+                  </a> <!-- testServicePageClick -->
+                  <span class="method-name">testServicePageClick</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=75.0.3770.142)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINDT-076&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\ANNE~1.SIV\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:63732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 76dbc09a15310f722cca96ca2597fb20
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.atmecs.qa.utils.CommonUtilityMethods.click(CommonUtilityMethods.java:92)
+	at com.atmecs.qa.pages.ServicePage.clickReadMoreButton(ServicePage.java:184)
+	at com.atmecs.qa.pages.ServicePage.ServiceMenu(ServicePage.java:127)
+	at com.atmecs.qa.testscripts.TestServicePage.testServicePageClick(TestServicePage.java:31)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -228,21 +273,6 @@
                   <a name="testProductEngineeringClick">
                   </a> <!-- testProductEngineeringClick -->
                   <span class="method-name">testProductEngineeringClick</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.atmecs.qa.testscripts.TestServicePage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testServicePageClick">
-                  </a> <!-- testServicePageClick -->
-                  <span class="method-name">testServicePageClick</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -402,46 +432,99 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;test name=&quot;test1&quot;&gt;
+  &lt;test name=&quot;ServicePage&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.atmecs.qa.testscripts.TestServicePage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- test1 --&gt;
-  &lt;test name=&quot;test2&quot;&gt;
+  &lt;/test&gt; &lt;!-- ServicePage --&gt;
+  &lt;test name=&quot;DigitalLifePage&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.atmecs.qa.testscripts.TestDigitalLifePage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- test2 --&gt;
-  &lt;test name=&quot;test3&quot;&gt;
+  &lt;/test&gt; &lt;!-- DigitalLifePage --&gt;
+  &lt;test name=&quot;CloudServicesPage&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.atmecs.qa.testscripts.TestCloudServicesPage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- test3 --&gt;
-  &lt;test name=&quot;test4&quot;&gt;
+  &lt;/test&gt; &lt;!-- CloudServicesPage --&gt;
+  &lt;test name=&quot;EnterpriseAnalyticsPage&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- test4 --&gt;
-  &lt;test name=&quot;test5&quot;&gt;
+  &lt;/test&gt; &lt;!-- EnterpriseAnalyticsPage --&gt;
+  &lt;test name=&quot;MobileComputingPage&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.atmecs.qa.testscripts.TestMobileComputingPage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- test5 --&gt;
-  &lt;test name=&quot;test6&quot;&gt;
+  &lt;/test&gt; &lt;!-- MobileComputingPage --&gt;
+  &lt;test name=&quot;ProductEngineeringPage&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.atmecs.qa.testscripts.TestProductEngineeringPage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- test6 --&gt;
-  &lt;test name=&quot;test7&quot;&gt;
+  &lt;/test&gt; &lt;!-- ProductEngineeringPage --&gt;
+  &lt;test name=&quot;QualityEngineeringPage&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.atmecs.qa.testscripts.TestQualityEngineeringPage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- test7 --&gt;
-  &lt;test name=&quot;test8&quot;&gt;
+  &lt;/test&gt; &lt;!-- QualityEngineeringPage --&gt;
+  &lt;test name=&quot;InfrastructureServicesPage&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.atmecs.qa.testscripts.TestInfrastructureServicesPage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- test8 --&gt;
+  &lt;/test&gt; &lt;!-- InfrastructureServicesPage --&gt;
+  &lt;test name=&quot;ServicePage(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.atmecs.qa.testscripts.TestMobileComputingPage&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;preSetup&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.atmecs.qa.testscripts.TestMobileComputingPage --&gt;
+      &lt;class name=&quot;com.atmecs.qa.testscripts.TestProductEngineeringPage&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;preSetup&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.atmecs.qa.testscripts.TestProductEngineeringPage --&gt;
+      &lt;class name=&quot;com.atmecs.qa.testscripts.TestServicePage&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testServicePageClick&quot;/&gt;
+          &lt;include name=&quot;preSetup&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.atmecs.qa.testscripts.TestServicePage --&gt;
+      &lt;class name=&quot;com.atmecs.qa.testscripts.TestQualityEngineeringPage&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;preSetup&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.atmecs.qa.testscripts.TestQualityEngineeringPage --&gt;
+      &lt;class name=&quot;com.atmecs.qa.testscripts.TestDigitalLifePage&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;preSetup&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.atmecs.qa.testscripts.TestDigitalLifePage --&gt;
+      &lt;class name=&quot;com.atmecs.qa.testscripts.TestCloudServicesPage&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;preSetup&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.atmecs.qa.testscripts.TestCloudServicesPage --&gt;
+      &lt;class name=&quot;com.atmecs.qa.testscripts.TestInfrastructureServicesPage&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;preSetup&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.atmecs.qa.testscripts.TestInfrastructureServicesPage --&gt;
+      &lt;class name=&quot;com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;preSetup&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ServicePage(failed) --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -453,28 +536,31 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">test1 (1 class)</span>
+                <span class="test-name">ServicePage (1 class)</span>
               </li>
               <li>
-                <span class="test-name">test2 (1 class)</span>
+                <span class="test-name">DigitalLifePage (1 class)</span>
               </li>
               <li>
-                <span class="test-name">test3 (1 class)</span>
+                <span class="test-name">CloudServicesPage (1 class)</span>
               </li>
               <li>
-                <span class="test-name">test4 (1 class)</span>
+                <span class="test-name">EnterpriseAnalyticsPage (1 class)</span>
               </li>
               <li>
-                <span class="test-name">test5 (1 class)</span>
+                <span class="test-name">MobileComputingPage (1 class)</span>
               </li>
               <li>
-                <span class="test-name">test6 (1 class)</span>
+                <span class="test-name">ProductEngineeringPage (1 class)</span>
               </li>
               <li>
-                <span class="test-name">test7 (1 class)</span>
+                <span class="test-name">QualityEngineeringPage (1 class)</span>
               </li>
               <li>
-                <span class="test-name">test8 (1 class)</span>
+                <span class="test-name">InfrastructureServicesPage (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ServicePage(failed) (8 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -504,80 +590,80 @@ data.addRows(18);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testServicePageClick')
 data.setCell(0, 2, 'com.atmecs.qa.testscripts.TestServicePage')
-data.setCell(0, 3, 70920);
+data.setCell(0, 3, 89342);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testInfrastructureServicePageClick')
 data.setCell(1, 2, 'com.atmecs.qa.testscripts.TestInfrastructureServicesPage')
-data.setCell(1, 3, 34026);
+data.setCell(1, 3, 51982);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testDigitalLifePageClick')
 data.setCell(2, 2, 'com.atmecs.qa.testscripts.TestDigitalLifePage')
-data.setCell(2, 3, 30285);
+data.setCell(2, 3, 47011);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testInfrastructureManagementPageClick')
-data.setCell(3, 2, 'com.atmecs.qa.testscripts.TestInfrastructureServicesPage')
-data.setCell(3, 3, 11142);
+data.setCell(3, 1, 'testMobileComputingClick')
+data.setCell(3, 2, 'com.atmecs.qa.testscripts.TestMobileComputingPage')
+data.setCell(3, 3, 19876);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testDataCenterManagementPageClick')
-data.setCell(4, 2, 'com.atmecs.qa.testscripts.TestInfrastructureServicesPage')
-data.setCell(4, 3, 10951);
+data.setCell(4, 1, 'testArtificialIntelligencePageClick')
+data.setCell(4, 2, 'com.atmecs.qa.testscripts.TestDigitalLifePage')
+data.setCell(4, 3, 18799);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testDevopsPageClick')
+data.setCell(5, 1, 'testCloudInfrastructurePageClick')
 data.setCell(5, 2, 'com.atmecs.qa.testscripts.TestInfrastructureServicesPage')
-data.setCell(5, 3, 10270);
+data.setCell(5, 3, 18515);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testRoboticPageClick')
-data.setCell(6, 2, 'com.atmecs.qa.testscripts.TestDigitalLifePage')
-data.setCell(6, 3, 9990);
+data.setCell(6, 1, 'testInfrastructureManagementPageClick')
+data.setCell(6, 2, 'com.atmecs.qa.testscripts.TestInfrastructureServicesPage')
+data.setCell(6, 3, 17111);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testProductEngineeringClick')
-data.setCell(7, 2, 'com.atmecs.qa.testscripts.TestProductEngineeringPage')
-data.setCell(7, 3, 9604);
+data.setCell(7, 1, 'testQualityEngineeringPageClick')
+data.setCell(7, 2, 'com.atmecs.qa.testscripts.TestQualityEngineeringPage')
+data.setCell(7, 3, 17056);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testNOCServicesPageClick')
-data.setCell(8, 2, 'com.atmecs.qa.testscripts.TestInfrastructureServicesPage')
-data.setCell(8, 3, 9582);
+data.setCell(8, 1, 'testVirtualRealityPageClick')
+data.setCell(8, 2, 'com.atmecs.qa.testscripts.TestDigitalLifePage')
+data.setCell(8, 3, 15162);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testCloudInfrastructurePageClick')
-data.setCell(9, 2, 'com.atmecs.qa.testscripts.TestInfrastructureServicesPage')
-data.setCell(9, 3, 9434);
+data.setCell(9, 1, 'testEnterpriseAnalyticsPageClick')
+data.setCell(9, 2, 'com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage')
+data.setCell(9, 3, 14860);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testQualityEngineeringPageClick')
-data.setCell(10, 2, 'com.atmecs.qa.testscripts.TestQualityEngineeringPage')
-data.setCell(10, 3, 9137);
+data.setCell(10, 1, 'testNOCServicesPageClick')
+data.setCell(10, 2, 'com.atmecs.qa.testscripts.TestInfrastructureServicesPage')
+data.setCell(10, 3, 13724);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testArtificialIntelligencePageClick')
-data.setCell(11, 2, 'com.atmecs.qa.testscripts.TestDigitalLifePage')
-data.setCell(11, 3, 9097);
+data.setCell(11, 1, 'testCloudServicesPageClick')
+data.setCell(11, 2, 'com.atmecs.qa.testscripts.TestCloudServicesPage')
+data.setCell(11, 3, 13546);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testMobileComputingClick')
-data.setCell(12, 2, 'com.atmecs.qa.testscripts.TestMobileComputingPage')
-data.setCell(12, 3, 8985);
+data.setCell(12, 1, 'testProductEngineeringClick')
+data.setCell(12, 2, 'com.atmecs.qa.testscripts.TestProductEngineeringPage')
+data.setCell(12, 3, 13099);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testVirtualRealityPageClick')
-data.setCell(13, 2, 'com.atmecs.qa.testscripts.TestDigitalLifePage')
-data.setCell(13, 3, 8929);
+data.setCell(13, 1, 'testDevopsPageClick')
+data.setCell(13, 2, 'com.atmecs.qa.testscripts.TestInfrastructureServicesPage')
+data.setCell(13, 3, 12952);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testInternetOfThingsPageClick')
+data.setCell(14, 1, 'testBlockchainPageClick')
 data.setCell(14, 2, 'com.atmecs.qa.testscripts.TestDigitalLifePage')
-data.setCell(14, 3, 8875);
+data.setCell(14, 3, 12934);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'testEnterpriseAnalyticsPageClick')
-data.setCell(15, 2, 'com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage')
-data.setCell(15, 3, 8407);
+data.setCell(15, 1, 'testDataCenterManagementPageClick')
+data.setCell(15, 2, 'com.atmecs.qa.testscripts.TestInfrastructureServicesPage')
+data.setCell(15, 3, 12887);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'testBlockchainPageClick')
+data.setCell(16, 1, 'testRoboticPageClick')
 data.setCell(16, 2, 'com.atmecs.qa.testscripts.TestDigitalLifePage')
-data.setCell(16, 3, 8204);
+data.setCell(16, 3, 12073);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'testCloudServicesPageClick')
-data.setCell(17, 2, 'com.atmecs.qa.testscripts.TestCloudServicesPage')
-data.setCell(17, 3, 8033);
+data.setCell(17, 1, 'testInternetOfThingsPageClick')
+data.setCell(17, 2, 'com.atmecs.qa.testscripts.TestDigitalLifePage')
+data.setCell(17, 3, 11650);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -609,157 +695,159 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testServicePageClick</span>
-                <span class="method-start">10138 ms</span>
+                <span class="method-start">12493 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">81060 ms</span>
+                <span class="method-start">101843 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.atmecs.qa.testscripts.TestDigitalLifePage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">preSetup</span>
-                <span class="method-start">82010 ms</span>
+                <span class="method-start">103176 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testDigitalLifePageClick</span>
-                <span class="method-start">92346 ms</span>
+                <span class="method-start">116019 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testArtificialIntelligencePageClick</span>
-                <span class="method-start">122632 ms</span>
+                <span class="method-start">163033 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testVirtualRealityPageClick</span>
-                <span class="method-start">131730 ms</span>
+                <span class="method-start">181843 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testBlockchainPageClick</span>
-                <span class="method-start">140660 ms</span>
+                <span class="method-start">197007 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testRoboticPageClick</span>
-                <span class="method-start">148865 ms</span>
+                <span class="method-start">209943 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testInternetOfThingsPageClick</span>
-                <span class="method-start">158857 ms</span>
+                <span class="method-start">222019 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">167733 ms</span>
+                <span class="method-start">233670 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.atmecs.qa.testscripts.TestCloudServicesPage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">preSetup</span>
-                <span class="method-start">168782 ms</span>
+                <span class="method-start">234961 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testCloudServicesPageClick</span>
-                <span class="method-start">178359 ms</span>
+                <span class="method-start">247441 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">186393 ms</span>
+                <span class="method-start">260999 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">preSetup</span>
-                <span class="method-start">187859 ms</span>
+                <span class="method-start">263010 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testEnterpriseAnalyticsPageClick</span>
-                <span class="method-start">197164 ms</span>
+                <span class="method-start">276845 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">205573 ms</span>
+                <span class="method-start">291707 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.atmecs.qa.testscripts.TestMobileComputingPage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">preSetup</span>
-                <span class="method-start">206970 ms</span>
+                <span class="method-start">293888 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testMobileComputingClick</span>
-                <span class="method-start">216229 ms</span>
+                <span class="method-start">308694 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">225215 ms</span>
+                <span class="method-start">328572 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.atmecs.qa.testscripts.TestProductEngineeringPage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">preSetup</span>
-                <span class="method-start">226521 ms</span>
+                <span class="method-start">330620 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testProductEngineeringClick</span>
-                <span class="method-start">235730 ms</span>
+                <span class="method-start">346618 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">245335 ms</span>
+                <span class="method-start">359718 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.atmecs.qa.testscripts.TestQualityEngineeringPage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">preSetup</span>
-                <span class="method-start">246912 ms</span>
+                <span class="method-start">361731 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testQualityEngineeringPageClick</span>
-                <span class="method-start">256235 ms</span>
+                <span class="method-start">376260 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">265373 ms</span>
+                <span class="method-start">393317 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.atmecs.qa.testscripts.TestInfrastructureServicesPage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">preSetup</span>
-                <span class="method-start">266909 ms</span>
+                <span class="method-start">395338 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testInfrastructureServicePageClick</span>
-                <span class="method-start">276183 ms</span>
+                <span class="method-start">409320 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testInfrastructureManagementPageClick</span>
-                <span class="method-start">310211 ms</span>
+                <span class="method-start">461304 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testCloudInfrastructurePageClick</span>
-                <span class="method-start">321354 ms</span>
+                <span class="method-start">478426 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDevopsPageClick</span>
-                <span class="method-start">330790 ms</span>
+                <span class="method-start">496943 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testNOCServicesPageClick</span>
-                <span class="method-start">341062 ms</span>
+                <span class="method-start">509896 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDataCenterManagementPageClick</span>
-                <span class="method-start">350645 ms</span>
+                <span class="method-start">523622 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">361597 ms</span>
+                <span class="method-start">536511 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

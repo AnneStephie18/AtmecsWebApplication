@@ -42,6 +42,7 @@ public class ServicePage
 	{
 
 		By reading_services_xpath = helperobject.read_xpath(driver, "servicemenu", propertyfilepath);
+		helperobject.explixitWait(driver, "servicemenu");
 		commmon_utility.click(driver, reading_services_xpath);
 
 		printtitle(driver, "Services");
@@ -132,7 +133,7 @@ public class ServicePage
 	//perform click operation for service icon 
 	public void service_icon(WebDriver driver) 
 	{
-		By backward_services_xpath = helperobject.read_xpath(driver, "backward_services", propertyfilepath);
+		By backward_services_xpath = helperobject.read_xpath(driver, "services_icon", propertyfilepath);
 		commmon_utility.click(driver, backward_services_xpath);
 	}
 
@@ -179,6 +180,7 @@ public class ServicePage
 	public void clickReadMoreButton(WebDriver driver, String key_xpath, String propertypath) 
 	{
 		By click_readmore = helperobject.read_xpath(driver, key_xpath, propertypath);
+		//helperobject.explixitWait(driver, key_xpath);
 		commmon_utility.click(driver, click_readmore);
 
 	}
@@ -189,12 +191,12 @@ public class ServicePage
 	 * @param driver
 	 * @param expextedtitle
 	 */
+	
 	public void printtitle(WebDriver driver, String expectedtitle) 
 	{
 		By reading_title_xpath = helperobject.read_xpath(driver, "servicetitle", propertyfilepath);
 		String servicepagetitle = commmon_utility.getTitle(driver, reading_title_xpath);
 		commmon_utility.verifyAssert(servicepagetitle, expectedtitle);
-
 	}
 
 }

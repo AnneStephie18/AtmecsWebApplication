@@ -11,7 +11,7 @@ public class Constants {
     public final static long PAGE_LODE_TIMEOUT = 10;
 	public final static long IMPLICIT_WAIT = 10;
 	public final static String PROJECT_LOG_PATH=PROJECT_BASE_PATH+File.separator+"resources"+File.separator+"log.properties";
-	public final static String PROJECT_SERVICE_PATH=PROJECT_BASE_PATH + File.separator+"resources"+File.separator+"locators"+File.separator+"Services.properties";
+	public final static String PROJECT_SERVICE_PATH=PROJECT_BASE_PATH + File.separator+"resources"+File.separator+"locators"+File.separator+"services.properties";
 	public final static String PROJECT_DIGITALLIFE_PATH=PROJECT_BASE_PATH + File.separator+"resources"+File.separator+"locators"+File.separator+"digitallife.properties";
 	public final static String PROJECT_CLOUDSERVICES_PATH=PROJECT_BASE_PATH + File.separator+"resources"+File.separator+"locators"+File.separator+"cloudservices.properties";
 	public final static String PROJECT_ENTERPRISEANALYTICS_PATH=PROJECT_BASE_PATH + File.separator+"resources"+File.separator+"locators"+File.separator+"enterpriseanalytics.properties";

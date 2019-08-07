@@ -2,49 +2,49 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" >
  
- <test name="test1">
+ <test name="ServicePage">
   <classes>
 <class name="com.atmecs.qa.testscripts.TestServicePage"></class>
  </classes>
 </test>
 
- <test name="test2">
+ <test name="DigitalLifePage">
  <classes>
 <class name="com.atmecs.qa.testscripts.TestDigitalLifePage"></class>
  </classes>
 </test>
 
-<test name="test3">
+<test name="CloudServicesPage">
  <classes>
 <class name="com.atmecs.qa.testscripts.TestCloudServicesPage"></class>
  </classes>
 </test>
 
-<test name="test4">
+<test name="EnterpriseAnalyticsPage">
  <classes>
 <class name="com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage"></class>
  </classes>
 </test>
 
-<test name="test5">
+<test name="MobileComputingPage">
  <classes>
 <class name="com.atmecs.qa.testscripts.TestMobileComputingPage"></class>
  </classes>
 </test>  
 
-<test name="test6">
+<test name="ProductEngineeringPage">
  <classes>
 <class name="com.atmecs.qa.testscripts.TestProductEngineeringPage"></class>
  </classes>
 </test>
 
-<test name="test7">
+<test name="QualityEngineeringPage">
  <classes>
 <class name="com.atmecs.qa.testscripts.TestQualityEngineeringPage"></class>
  </classes>
 </test>
 
-<test name="test8">
+<test name="InfrastructureServicesPage">
  <classes>
 <class name="com.atmecs.qa.testscripts.TestInfrastructureServicesPage"></class>
  </classes>
