@@ -29,7 +29,7 @@ public class TestEnterpriseAnalyticsPage extends Base {
 	public void testEnterpriseAnalyticsPageClick()
 	{
 		
-		enterprise_analytics_page.Enterprise_Analytics_Menu(driver);
+		enterprise_analytics_page.EnterpriseAnalyticsMenu(driver);
 		
 	}
 	/**

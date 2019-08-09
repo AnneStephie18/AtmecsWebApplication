@@ -18,40 +18,37 @@ import com.atmecs.qa.testbase.Base;
  * @author Anne.Sivakumar
  *
  */
-public class CommonUtilityMethods extends Base {
+public class CommonUtilityMethods  {
 	LogReports log=new LogReports();
+	Base base = new Base();
 	
-	
-	 //get xpath and driver  as parameter and perform mouse over using actions class
-	public void performMouseOverInServiceMenu(WebDriver driver,By mouseclick)
+	 //perform mouse over using actions class
+	public void performMouseOver(WebDriver driver,String xpath)
 	 {
-		  //System.out.println(driver);
-		log.info("Driver:"+driver);
 		 Actions action = new Actions(driver);
-		 action.moveToElement(driver.findElement(mouseclick)).build().perform();
+		 action.moveToElement(driver.findElement(By.xpath(xpath))).build().perform();
 	 }
 	
 	//return the title of the page
-	public String getTitle(WebDriver driver,By title)
+	public String getTitle(WebDriver driver,String xpath)
 	{
-		
-		 return driver.findElement(title).getText();
+		  return driver.findElement(By.xpath(xpath)).getText();
 	}
 	
 	//verify with the actual and expected title is same
-	public void verifyAssert(String actual,String expected)
+	public void verifyAssertTitle(String actual,String expected)
 	{
-		//SoftAssert Assert=new SoftAssert();
+		
 		log.info("Actual Title of the page:"+actual);
 		log.info("ExpectedTitle of the page:"+expected);
 		Assert.assertEquals(actual,expected,"passed");
 	}
 	
 	//count and print the number of read more button  by passing xpath as parameter
-	public List<String> countReadMoreButton(WebDriver driver,By readmore_xpath)
+	public List<String> countReadMoreButton(WebDriver driver,String readmore_xpath)
 	{
 		List<String> read_more_content= new ArrayList<String>();
-		List<WebElement> read_more_button= driver.findElements(readmore_xpath);
+		List<WebElement> read_more_button= driver.findElements(By.xpath(readmore_xpath));
 
 		for(WebElement CountOfReadMore:read_more_button)
 		{
@@ -63,10 +60,10 @@ public class CommonUtilityMethods extends Base {
 	}
 	
 	//count and print the number of hyper link button  by passing xpath as parameter
-	public List<String> counthyperlink(WebDriver driver,By readmore_xpath)
+	public List<String> countNumberOfServices(WebDriver driver,String readmore_xpath)
 	{
 		List<String> hyperlink_content= new ArrayList<String>();
-		List<WebElement> read_more_button= driver.findElements(readmore_xpath);
+		List<WebElement> read_more_button= driver.findElements(By.xpath(readmore_xpath));
 		
 		for(WebElement CountOfReadMore:read_more_button)
 		{
@@ -87,9 +84,9 @@ public class CommonUtilityMethods extends Base {
 	}
    
  //perform click operation by passing xpath as parameter
-public void click(WebDriver driver,By clickxpath)
+public void click(WebDriver driver,String clickxpath)
 	{    
-		 driver.findElement(clickxpath).click();		 
+		 driver.findElement(By.xpath(clickxpath)).click();		 
 	}
 	
 //navigate to the previous page

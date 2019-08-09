@@ -2,11 +2,7 @@ package com.atmecs.qa.pages;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-import com.atmecs.qa.constants.Constants;
 import com.atmecs.qa.helper.Helper;
 import com.atmecs.qa.utils.CommonUtilityMethods;
 
@@ -17,18 +13,12 @@ import com.atmecs.qa.utils.CommonUtilityMethods;
  * Perform click operation on service icon and validate the service page is navigated back 
  * Perform click operation on home icon and validate the home page is navigated back 
  * verify page navigation with the title of the page
- * 
- * @author Anne.Sivakumar
- *
  */
 public class DigitalLifePage {
-
-	Helper helperobject = new Helper();
+	Helper helperobject = Helper.getInstance();
 	CommonUtilityMethods commmon_utility = new CommonUtilityMethods();
 	ServicePage servicepageobject = new ServicePage();
-	public String propertyfilepath = Constants.PROJECT_DIGITALLIFE_PATH;
-	By reading_digital_life_xpath;
-
+	String reading_digital_life_xpath;
 	/**
 	 * validate digital life page navigation by verifying page digital life title 
 	 * click read more button and validate page navigation by verifying each page title 
@@ -38,94 +28,66 @@ public class DigitalLifePage {
 	 * 
 	 * @param driver
 	 */
-	public void digital_Life_Menu(WebDriver driver) {
-		// By reading_service_xpath=helperobject.read_digitallife_xpath(driver,
-		// "servicemenu");
-		// commmon_utility.performMouseOverInServiceMenu(driver,
-		// reading_service_xpath);
-		clickservicemenu(driver);
-		reading_digital_life_xpath = helperobject.read_xpath(driver, "digital_life_submenu", propertyfilepath);
-		commmon_utility.click(driver, reading_digital_life_xpath);
+	public void digitalLifeMenu(WebDriver driver) {
+		System.out.println(driver);
+		mouseOverServiceMenu(driver);
+		reading_digital_life_xpath = helperobject.getValue("digital_life_submenu");
+		commmon_utility.click(driver, helperobject.getValue("digital_life_submenu"));
+		servicepageobject.verifyTitle(driver, helperobject.getValue("expected_digital_life_page_title"));
 
-		printtitle(driver, "Digital Life");
+		List<String> actual_heading = commmon_utility.countNumberOfServices(driver, helperobject.getValue("digital_life_heading"));
+		commmon_utility.verifyAssertListOfText(actual_heading, digitalLifepageHyperlink());
 
-		By heading = helperobject.read_xpath(driver, "digital_life_heading", propertyfilepath);
-		List<String> actual_heading = commmon_utility.counthyperlink(driver, heading);
-		commmon_utility.verifyAssertListOfText(actual_heading, digital_lifepage_hyperlink());
+		List<String> actual_readmore = commmon_utility.countReadMoreButton(driver, helperobject.getValue("digital_lifepage_readmore_count"));
+		commmon_utility.verifyAssertListOfText(actual_readmore, digitalLifepageReadmore());
 
-		By readmore = helperobject.read_xpath(driver, "digital_lifepage_readmore_count", propertyfilepath);
-		List<String> actual_readmore = commmon_utility.countReadMoreButton(driver, readmore);
-		commmon_utility.verifyAssertListOfText(actual_readmore, digital_lifepage_readmore());
-
-		servicepageobject.clickReadMoreButton(driver, "artificial_intelligence_readmore_button", propertyfilepath);
-		printtitle(driver, "Artificial Intelligence / Machine Learning");
-		digital_life_icon(driver);
-
-		servicepageobject.clickReadMoreButton(driver, "virtual_reality_readmore_button", propertyfilepath);
-		printtitle(driver, "Augmented Reality / Virtual Reality");
-		digital_life_icon(driver);
-
-		servicepageobject.clickReadMoreButton(driver, "blockchain_readmore_button", propertyfilepath);
-		printtitle(driver, "Blockchain");
-		digital_life_icon(driver);
-
-		servicepageobject.clickReadMoreButton(driver, "robotic_readmore_button", propertyfilepath);
-		printtitle(driver, "Robotic Process Automation & ChatBOTs");
-		digital_life_icon(driver);
-
-		servicepageobject.clickReadMoreButton(driver, "internetofthings_readmore_button", propertyfilepath);
-		printtitle(driver, "Internet of Things");
-		digital_life_icon(driver);
-
-		servicepageobject.service_icon(driver);
-		servicepageobject.home_icon(driver);
+		performClickReadMoreButton(driver,"artificial_intelligence_readmore_button",helperobject.getValue("expected_artificial_intelligence_page_title"));
+		performClickReadMoreButton(driver,"virtual_reality_readmore_button",helperobject.getValue("expected_virtual_reality_page_title"));
+		performClickReadMoreButton(driver,"blockchain_readmore_button",helperobject.getValue("expected_blockchain_page_title"));
+		performClickReadMoreButton(driver,"robotic_readmore_button",helperobject.getValue("expected_robotic_page_title"));
+		performClickReadMoreButton(driver,"internetofthings_readmore_button",helperobject.getValue("expected_internet_of_things_page_title"));
+	
+		servicepageobject.clickOnServiceText(driver);
+		servicepageobject.clickOnHomeText(driver);
 	}
 
 	// add the list of elements into the list
-	public List<String> digital_lifepage_hyperlink() {
+	public List<String> digitalLifepageHyperlink() {
 		List<String> hyperlink_content_expexted = new ArrayList<String>();
-		hyperlink_content_expexted.add("Artificial Intelligence / Machine Learning");
-		hyperlink_content_expexted.add("Augmented Reality / Virtual Reality");
-		hyperlink_content_expexted.add("Blockchain");
-		hyperlink_content_expexted.add("Robotic Process Automation & ChatBOTs");
-		hyperlink_content_expexted.add("Internet of Things");
+		hyperlink_content_expexted.add(helperobject.getValue("expected_artificial_intelligence_page_title"));
+		hyperlink_content_expexted.add(helperobject.getValue("expected_virtual_reality_page_title"));
+		hyperlink_content_expexted.add(helperobject.getValue("expected_blockchain_page_title"));
+		hyperlink_content_expexted.add(helperobject.getValue("expected_robotic_page_title"));
+		hyperlink_content_expexted.add(helperobject.getValue("expected_internet_of_things_page_title"));
 		return hyperlink_content_expexted;
 	}
 
 	// add the list of elements into the list
-	public List<String> digital_lifepage_readmore() {
+	public List<String> digitalLifepageReadmore() {
 		List<String> readmore_content_expexted = new ArrayList<String>();
-		readmore_content_expexted.add("Read More");
-		readmore_content_expexted.add("Read More");
-		readmore_content_expexted.add("Read More");
-		readmore_content_expexted.add("Read More");
-		readmore_content_expexted.add("Read More");
+		for(int i=1;i<=5;i++)
+		{
+		readmore_content_expexted.add(helperobject.getValue("readmoretext"));
+		}
 		return readmore_content_expexted;
 	}
-
-	//perform mouse over operation by passing xpath as parameter
-	public void clickservicemenu(WebDriver driver) {
-		By reading_service_xpath = helperobject.read_xpath(driver, "servicemenu", propertyfilepath);
-		helperobject.explixitWait(driver, "servicemenu");
-		commmon_utility.performMouseOverInServiceMenu(driver, reading_service_xpath);
+	
+	public void performClickReadMoreButton(WebDriver driver,String xpath,String expectedtitle)
+	{
+		servicepageobject.clickReadMoreButton(driver, xpath);
+		servicepageobject.verifyTitle(driver, expectedtitle);
+		clickOnDigitalLifeText(driver);
 	}
 
-	/**
-	 * get the xpath 
-	 * perform get title and verify assert operation
-	 * @param driver
-	 * @param expextedtitle
-	 */
-	public void printtitle(WebDriver driver, String expectedtitle) {
-		By reading_title_xpath = helperobject.read_xpath(driver, "digital_life_title", propertyfilepath);
-		String digital_life_title = commmon_utility.getTitle(driver, reading_title_xpath);
-		commmon_utility.verifyAssert(digital_life_title, expectedtitle);
+	//perform mouse over operation in service menu
+	public void mouseOverServiceMenu(WebDriver driver) {
+		commmon_utility.performMouseOver(driver, helperobject.getValue("servicemenu"));
 	}
+
 
 	//perform click operation for digital life icon 
-	public void digital_life_icon(WebDriver driver) {
-		By backward_digital_life_xpath = helperobject.read_xpath(driver, "digital_lifepage_icon", propertyfilepath);
-		commmon_utility.click(driver, backward_digital_life_xpath);
+	public void clickOnDigitalLifeText(WebDriver driver) {
+		commmon_utility.click(driver, helperobject.getValue("digital_lifepage_icon"));
 	}
 
 	/**
@@ -135,18 +97,16 @@ public class DigitalLifePage {
 	 * Perform click operation on home icon and validate the home page is navigated back
 	 * @param driver
 	 */
-	public void artificial_intelligence_submenu(WebDriver driver) {
-		clickservicemenu(driver);
-		By reading_artificial_intelligence_xpath = helperobject.read_xpath(driver, "artificial_intelligence_submenu",propertyfilepath);
-		helperobject.explixitWait(driver, "digital_life_submenu");
-		commmon_utility.performMouseOverInServiceMenu(driver, reading_digital_life_xpath);
-		commmon_utility.performMouseOverInServiceMenu(driver, reading_artificial_intelligence_xpath);
-		helperobject.explixitWait(driver, "artificial_intelligence_submenu");
-		commmon_utility.click(driver, reading_artificial_intelligence_xpath);
-		printtitle(driver, "Artificial Intelligence / Machine Learning");
-		digital_life_icon(driver);
-		servicepageobject.service_icon(driver);
-		servicepageobject.home_icon(driver);
+	public void artificialIntelligenceSubmenu(WebDriver driver) {
+		mouseOverServiceMenu(driver);
+		commmon_utility.performMouseOver(driver, helperobject.getValue("digital_life_submenu"));
+		commmon_utility.performMouseOver(driver, helperobject.getValue("artificial_intelligence_submenu"));
+		helperobject.explixitWait(driver,"artificial_intelligence_submenu");
+		commmon_utility.click(driver, helperobject.getValue("artificial_intelligence_submenu"));
+		servicepageobject.verifyTitle(driver, helperobject.getValue("expected_artificial_intelligence_page_title"));
+		clickOnDigitalLifeText(driver);
+		servicepageobject.clickOnServiceText(driver);
+		servicepageobject.clickOnHomeText(driver);
 	}
 	/**
 	 * validate virtual reality page navigation by verifying page virtual reality title
@@ -155,18 +115,16 @@ public class DigitalLifePage {
 	 * Perform click operation on home icon and validate the home page is navigated back
 	 * @param driver
 	 */
-	public void virtual_reality_submenu(WebDriver driver) {
-		clickservicemenu(driver);
-		By reading_virtual_reality_xpath = helperobject.read_xpath(driver, "virtual_reality_submenu", propertyfilepath);
-		helperobject.explixitWait(driver, "digital_life_submenu");
-		commmon_utility.performMouseOverInServiceMenu(driver, reading_digital_life_xpath);
-		commmon_utility.performMouseOverInServiceMenu(driver, reading_virtual_reality_xpath);
-		helperobject.explixitWait(driver, "virtual_reality_submenu");
-		commmon_utility.click(driver, reading_virtual_reality_xpath);
-		printtitle(driver, "Augmented Reality / Virtual Reality");
-		digital_life_icon(driver);
-		servicepageobject.service_icon(driver);
-		servicepageobject.home_icon(driver);
+	public void virtualRealitySubmenu(WebDriver driver) {
+		mouseOverServiceMenu(driver);
+		commmon_utility.performMouseOver(driver, helperobject.getValue("digital_life_submenu"));
+		commmon_utility.performMouseOver(driver, helperobject.getValue("virtual_reality_submenu"));
+		helperobject.explixitWait(driver,"virtual_reality_submenu");
+		commmon_utility.click(driver, helperobject.getValue("virtual_reality_submenu"));
+		servicepageobject.verifyTitle(driver, helperobject.getValue("expected_virtual_reality_page_title"));
+		clickOnDigitalLifeText(driver);
+		servicepageobject.clickOnServiceText(driver);
+		servicepageobject.clickOnHomeText(driver);
 	}
 	/**
 	 * validate blockchain page navigation by verifying page blockchain title
@@ -175,18 +133,16 @@ public class DigitalLifePage {
 	 * Perform click operation on home icon and validate the home page is navigated back
 	 * @param driver
 	 */
-	public void blockchain_submenu(WebDriver driver) {
-		clickservicemenu(driver);
-		By reading_blockchain_xpath = helperobject.read_xpath(driver, "blockchain_submenu", propertyfilepath);
-		helperobject.explixitWait(driver, "digital_life_submenu");
-		commmon_utility.performMouseOverInServiceMenu(driver, reading_digital_life_xpath);
-		commmon_utility.performMouseOverInServiceMenu(driver, reading_blockchain_xpath);
+	public void blockchainSubmenu(WebDriver driver) {
+		mouseOverServiceMenu(driver);
+		commmon_utility.performMouseOver(driver, helperobject.getValue("digital_life_submenu"));
+		commmon_utility.performMouseOver(driver, helperobject.getValue("blockchain_submenu"));
 		helperobject.explixitWait(driver, "blockchain_submenu");
-		commmon_utility.click(driver, reading_blockchain_xpath);
-		printtitle(driver, "Blockchain");
-		digital_life_icon(driver);
-		servicepageobject.service_icon(driver);
-		servicepageobject.home_icon(driver);
+		commmon_utility.click(driver, helperobject.getValue("blockchain_submenu"));
+		servicepageobject.verifyTitle(driver, helperobject.getValue("expected_blockchain_page_title"));
+		clickOnDigitalLifeText(driver);
+		servicepageobject.clickOnServiceText(driver);
+		servicepageobject.clickOnHomeText(driver);
 	}
 	/**
 	 * validate robotic page navigation by verifying page robotic title
@@ -195,18 +151,16 @@ public class DigitalLifePage {
 	 * Perform click operation on home icon and validate the home page is navigated back
 	 * @param driver
 	 */
-	public void robotic_submenu(WebDriver driver) {
-		clickservicemenu(driver);
-		By reading_robotic_xpath = helperobject.read_xpath(driver, "robotic_submenu", propertyfilepath);
-		helperobject.explixitWait(driver, "digital_life_submenu");
-		commmon_utility.performMouseOverInServiceMenu(driver, reading_digital_life_xpath);
-		commmon_utility.performMouseOverInServiceMenu(driver, reading_robotic_xpath);
-		helperobject.explixitWait(driver, "robotic_submenu");
-		commmon_utility.click(driver, reading_robotic_xpath);
-		printtitle(driver, "Robotic Process Automation & ChatBOTs");
-		digital_life_icon(driver);
-		servicepageobject.service_icon(driver);
-		servicepageobject.home_icon(driver);
+	public void roboticSubmenu(WebDriver driver) {
+		mouseOverServiceMenu(driver);
+		commmon_utility.performMouseOver(driver, helperobject.getValue("digital_life_submenu"));
+		helperobject.explixitWait(driver,"robotic_submenu");
+		commmon_utility.performMouseOver(driver, helperobject.getValue("robotic_submenu"));
+		commmon_utility.click(driver, helperobject.getValue("robotic_submenu"));
+		servicepageobject.verifyTitle(driver, helperobject.getValue("expected_robotic_page_title"));
+		clickOnDigitalLifeText(driver);
+		servicepageobject.clickOnServiceText(driver);
+		servicepageobject.clickOnHomeText(driver);
 	}
 	/**
 	 * validate internet of things page navigation by verifying page internet of things title
@@ -215,17 +169,15 @@ public class DigitalLifePage {
 	 * Perform click operation on home icon and validate the home page is navigated back
 	 * @param driver
 	 */
-	public void internetofthings_submenu(WebDriver driver) {
-		clickservicemenu(driver);
-		By reading_internetofthings_xpath = helperobject.read_xpath(driver, "internetofthings_submenu",propertyfilepath);
-		helperobject.explixitWait(driver, "digital_life_submenu");
-		commmon_utility.performMouseOverInServiceMenu(driver, reading_digital_life_xpath);
-		commmon_utility.performMouseOverInServiceMenu(driver, reading_internetofthings_xpath);
-		helperobject.explixitWait(driver, "internetofthings_submenu");
-		commmon_utility.click(driver, reading_internetofthings_xpath);
-		printtitle(driver, "Internet of Things");
-		digital_life_icon(driver);
-		servicepageobject.service_icon(driver);
-		servicepageobject.home_icon(driver);
+	public void internetofthingsSubmenu(WebDriver driver) {
+		mouseOverServiceMenu(driver);
+		commmon_utility.performMouseOver(driver, helperobject.getValue("digital_life_submenu"));
+		helperobject.explixitWait(driver,  "internetofthings_submenu");
+		commmon_utility.performMouseOver(driver, helperobject.getValue("internetofthings_submenu"));
+		commmon_utility.click(driver, helperobject.getValue("internetofthings_submenu"));
+		servicepageobject.verifyTitle(driver,helperobject.getValue("expected_internet_of_things_page_title"));
+		clickOnDigitalLifeText(driver);
+		servicepageobject.clickOnServiceText(driver);
+		servicepageobject.clickOnHomeText(driver);
 	}
 }

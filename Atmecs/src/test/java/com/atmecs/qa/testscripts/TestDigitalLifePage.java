@@ -29,7 +29,7 @@ public class TestDigitalLifePage extends Base{
 	public void testDigitalLifePageClick()
 	{
 		
-		digital_life_page.digital_Life_Menu(driver);
+		digital_life_page.digitalLifeMenu(driver);
 		
 	}
 	/**
@@ -40,7 +40,7 @@ public class TestDigitalLifePage extends Base{
 	{
 		
 		
-		digital_life_page.artificial_intelligence_submenu(driver);
+		digital_life_page.artificialIntelligenceSubmenu(driver);
 	}
 	/**
 	 * call virtual_reality_submenu method
@@ -49,7 +49,7 @@ public class TestDigitalLifePage extends Base{
 	public void testVirtualRealityPageClick()
 	{
 		
-		digital_life_page.virtual_reality_submenu(driver);
+		digital_life_page.virtualRealitySubmenu(driver);
 	}
 	/**
 	 * call blockchain_submenu method
@@ -58,7 +58,7 @@ public class TestDigitalLifePage extends Base{
 	public void testBlockchainPageClick()
 	{
 		
-		digital_life_page.blockchain_submenu(driver);
+		digital_life_page.blockchainSubmenu(driver);
 	}
 	/**
 	 * call robotic_submenu method
@@ -67,7 +67,7 @@ public class TestDigitalLifePage extends Base{
 	public void testRoboticPageClick()
 	{
 		
-		digital_life_page.robotic_submenu(driver);
+		digital_life_page.roboticSubmenu(driver);
 	}
 	/**
 	 * call internetofthings_submenu method
@@ -76,7 +76,7 @@ public class TestDigitalLifePage extends Base{
 	public void testInternetOfThingsPageClick()
 	{
 		
-		digital_life_page.internetofthings_submenu(driver);
+		digital_life_page.internetofthingsSubmenu(driver);
 	}
 	
 	/**

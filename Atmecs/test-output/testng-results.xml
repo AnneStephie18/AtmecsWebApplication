@@ -1,238 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="18" passed="17">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="537938" started-at="2019-08-07T07:19:47Z" finished-at="2019-08-07T07:28:45Z">
+  <suite name="Default suite" duration-ms="28129" started-at="2019-08-09T11:41:36Z" finished-at="2019-08-09T11:42:04Z">
     <groups>
     </groups>
-    <test name="ServicePage" duration-ms="103152" started-at="2019-08-07T07:19:47Z" finished-at="2019-08-07T07:21:31Z">
-      <class name="com.atmecs.qa.testscripts.TestServicePage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="preSetup" is-config="true" duration-ms="12479" started-at="2019-08-07T12:49:47Z" finished-at="2019-08-07T12:50:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preSetup -->
-        <test-method status="FAIL" signature="testServicePageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="testServicePageClick" duration-ms="89342" started-at="2019-08-07T12:50:00Z" finished-at="2019-08-07T12:51:29Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout
-  (Session info: chrome=75.0.3770.142)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\ANNE~1.SIV\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:63732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 76dbc09a15310f722cca96ca2597fb20]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout
-  (Session info: chrome=75.0.3770.142)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINDT-076', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\ANNE~1.SIV\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:63732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 76dbc09a15310f722cca96ca2597fb20
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.atmecs.qa.utils.CommonUtilityMethods.click(CommonUtilityMethods.java:92)
-	at com.atmecs.qa.pages.ServicePage.clickReadMoreButton(ServicePage.java:184)
-	at com.atmecs.qa.pages.ServicePage.ServiceMenu(ServicePage.java:127)
-	at com.atmecs.qa.testscripts.TestServicePage.testServicePageClick(TestServicePage.java:31)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testServicePageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestServicePage@2ef9b8bc]" name="tearDown" is-config="true" duration-ms="1304" started-at="2019-08-07T12:51:29Z" finished-at="2019-08-07T12:51:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.atmecs.qa.testscripts.TestServicePage -->
-    </test> <!-- ServicePage -->
-    <test name="DigitalLifePage" duration-ms="131759" started-at="2019-08-07T07:21:31Z" finished-at="2019-08-07T07:23:42Z">
-      <class name="com.atmecs.qa.testscripts.TestDigitalLifePage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="preSetup" is-config="true" duration-ms="12842" started-at="2019-08-07T12:51:31Z" finished-at="2019-08-07T12:51:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testDigitalLifePageClick()[pri:1, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testDigitalLifePageClick" duration-ms="47011" started-at="2019-08-07T12:51:43Z" finished-at="2019-08-07T12:52:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDigitalLifePageClick -->
-        <test-method status="PASS" signature="testArtificialIntelligencePageClick()[pri:2, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testArtificialIntelligencePageClick" duration-ms="18799" started-at="2019-08-07T12:52:30Z" finished-at="2019-08-07T12:52:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testArtificialIntelligencePageClick -->
-        <test-method status="PASS" signature="testVirtualRealityPageClick()[pri:3, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testVirtualRealityPageClick" duration-ms="15162" started-at="2019-08-07T12:52:49Z" finished-at="2019-08-07T12:53:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVirtualRealityPageClick -->
-        <test-method status="PASS" signature="testBlockchainPageClick()[pri:4, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testBlockchainPageClick" duration-ms="12934" started-at="2019-08-07T12:53:04Z" finished-at="2019-08-07T12:53:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBlockchainPageClick -->
-        <test-method status="PASS" signature="testRoboticPageClick()[pri:5, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testRoboticPageClick" duration-ms="12073" started-at="2019-08-07T12:53:17Z" finished-at="2019-08-07T12:53:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRoboticPageClick -->
-        <test-method status="PASS" signature="testInternetOfThingsPageClick()[pri:6, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="testInternetOfThingsPageClick" duration-ms="11650" started-at="2019-08-07T12:53:29Z" finished-at="2019-08-07T12:53:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInternetOfThingsPageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestDigitalLifePage@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="1264" started-at="2019-08-07T12:53:41Z" finished-at="2019-08-07T12:53:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.atmecs.qa.testscripts.TestDigitalLifePage -->
-    </test> <!-- DigitalLifePage -->
-    <test name="CloudServicesPage" duration-ms="28041" started-at="2019-08-07T07:23:42Z" finished-at="2019-08-07T07:24:10Z">
+    <test name="Default test" duration-ms="28129" started-at="2019-08-09T11:41:36Z" finished-at="2019-08-09T11:42:04Z">
       <class name="com.atmecs.qa.testscripts.TestCloudServicesPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="preSetup" is-config="true" duration-ms="12479" started-at="2019-08-07T12:53:42Z" finished-at="2019-08-07T12:53:55Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@60addb54]" name="preSetup" is-config="true" duration-ms="13527" started-at="2019-08-09T17:11:36Z" finished-at="2019-08-09T17:11:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testCloudServicesPageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="testCloudServicesPageClick" duration-ms="13546" started-at="2019-08-07T12:53:55Z" finished-at="2019-08-07T12:54:08Z">
+        <test-method status="PASS" signature="testCloudServicesPageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@60addb54]" name="testCloudServicesPageClick" duration-ms="12790" started-at="2019-08-09T17:11:49Z" finished-at="2019-08-09T17:12:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCloudServicesPageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@2c9f9fb0]" name="tearDown" is-config="true" duration-ms="2001" started-at="2019-08-07T12:54:08Z" finished-at="2019-08-07T12:54:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestCloudServicesPage@60addb54]" name="tearDown" is-config="true" duration-ms="1785" started-at="2019-08-09T17:12:02Z" finished-at="2019-08-09T17:12:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atmecs.qa.testscripts.TestCloudServicesPage -->
-    </test> <!-- CloudServicesPage -->
-    <test name="EnterpriseAnalyticsPage" duration-ms="30862" started-at="2019-08-07T07:24:10Z" finished-at="2019-08-07T07:24:41Z">
-      <class name="com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="preSetup" is-config="true" duration-ms="13834" started-at="2019-08-07T12:54:10Z" finished-at="2019-08-07T12:54:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testEnterpriseAnalyticsPageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="testEnterpriseAnalyticsPageClick" duration-ms="14860" started-at="2019-08-07T12:54:24Z" finished-at="2019-08-07T12:54:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterpriseAnalyticsPageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage@3dd3bcd]" name="tearDown" is-config="true" duration-ms="2165" started-at="2019-08-07T12:54:39Z" finished-at="2019-08-07T12:54:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage -->
-    </test> <!-- EnterpriseAnalyticsPage -->
-    <test name="MobileComputingPage" duration-ms="36723" started-at="2019-08-07T07:24:41Z" finished-at="2019-08-07T07:25:18Z">
-      <class name="com.atmecs.qa.testscripts.TestMobileComputingPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="preSetup" is-config="true" duration-ms="14806" started-at="2019-08-07T12:54:41Z" finished-at="2019-08-07T12:54:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testMobileComputingClick()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="testMobileComputingClick" duration-ms="19876" started-at="2019-08-07T12:54:56Z" finished-at="2019-08-07T12:55:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMobileComputingClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestMobileComputingPage@337d0578]" name="tearDown" is-config="true" duration-ms="2038" started-at="2019-08-07T12:55:16Z" finished-at="2019-08-07T12:55:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.atmecs.qa.testscripts.TestMobileComputingPage -->
-    </test> <!-- MobileComputingPage -->
-    <test name="ProductEngineeringPage" duration-ms="31100" started-at="2019-08-07T07:25:18Z" finished-at="2019-08-07T07:25:49Z">
-      <class name="com.atmecs.qa.testscripts.TestProductEngineeringPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="preSetup" is-config="true" duration-ms="15997" started-at="2019-08-07T12:55:18Z" finished-at="2019-08-07T12:55:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testProductEngineeringClick()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="testProductEngineeringClick" duration-ms="13099" started-at="2019-08-07T12:55:34Z" finished-at="2019-08-07T12:55:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testProductEngineeringClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestProductEngineeringPage@2344fc66]" name="tearDown" is-config="true" duration-ms="2002" started-at="2019-08-07T12:55:47Z" finished-at="2019-08-07T12:55:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.atmecs.qa.testscripts.TestProductEngineeringPage -->
-    </test> <!-- ProductEngineeringPage -->
-    <test name="QualityEngineeringPage" duration-ms="33575" started-at="2019-08-07T07:25:49Z" finished-at="2019-08-07T07:26:23Z">
-      <class name="com.atmecs.qa.testscripts.TestQualityEngineeringPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="preSetup" is-config="true" duration-ms="14526" started-at="2019-08-07T12:55:49Z" finished-at="2019-08-07T12:56:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testQualityEngineeringPageClick()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="testQualityEngineeringPageClick" duration-ms="17056" started-at="2019-08-07T12:56:04Z" finished-at="2019-08-07T12:56:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testQualityEngineeringPageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestQualityEngineeringPage@1efbd816]" name="tearDown" is-config="true" duration-ms="1989" started-at="2019-08-07T12:56:21Z" finished-at="2019-08-07T12:56:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.atmecs.qa.testscripts.TestQualityEngineeringPage -->
-    </test> <!-- QualityEngineeringPage -->
-    <test name="InfrastructureServicesPage" duration-ms="142596" started-at="2019-08-07T07:26:23Z" finished-at="2019-08-07T07:28:45Z">
-      <class name="com.atmecs.qa.testscripts.TestInfrastructureServicesPage">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="preSetup" is-config="true" duration-ms="13981" started-at="2019-08-07T12:56:23Z" finished-at="2019-08-07T12:56:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="testInfrastructureServicePageClick()[pri:1, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testInfrastructureServicePageClick" duration-ms="51982" started-at="2019-08-07T12:56:37Z" finished-at="2019-08-07T12:57:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInfrastructureServicePageClick -->
-        <test-method status="PASS" signature="testInfrastructureManagementPageClick()[pri:2, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testInfrastructureManagementPageClick" duration-ms="17111" started-at="2019-08-07T12:57:29Z" finished-at="2019-08-07T12:57:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInfrastructureManagementPageClick -->
-        <test-method status="PASS" signature="testCloudInfrastructurePageClick()[pri:3, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testCloudInfrastructurePageClick" duration-ms="18515" started-at="2019-08-07T12:57:46Z" finished-at="2019-08-07T12:58:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCloudInfrastructurePageClick -->
-        <test-method status="PASS" signature="testDevopsPageClick()[pri:4, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testDevopsPageClick" duration-ms="12952" started-at="2019-08-07T12:58:04Z" finished-at="2019-08-07T12:58:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDevopsPageClick -->
-        <test-method status="PASS" signature="testNOCServicesPageClick()[pri:5, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testNOCServicesPageClick" duration-ms="13724" started-at="2019-08-07T12:58:17Z" finished-at="2019-08-07T12:58:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testNOCServicesPageClick -->
-        <test-method status="PASS" signature="testDataCenterManagementPageClick()[pri:6, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="testDataCenterManagementPageClick" duration-ms="12887" started-at="2019-08-07T12:58:31Z" finished-at="2019-08-07T12:58:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDataCenterManagementPageClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.qa.testscripts.TestInfrastructureServicesPage@548b7f67]" name="tearDown" is-config="true" duration-ms="1422" started-at="2019-08-07T12:58:44Z" finished-at="2019-08-07T12:58:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.atmecs.qa.testscripts.TestInfrastructureServicesPage -->
-    </test> <!-- InfrastructureServicesPage -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

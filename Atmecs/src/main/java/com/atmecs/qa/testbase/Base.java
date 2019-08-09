@@ -12,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import com.atmecs.qa.constants.Constants;
+import com.atmecs.qa.helper.Helper;
+import com.atmecs.qa.logreports.LogReports;
 /**
  * This class is used for creation of driver(Chrome,Firefox,Internt Explorer) and close the driver and load properties file
  * @author Anne.Sivakumar
@@ -20,58 +22,35 @@ import com.atmecs.qa.constants.Constants;
 public class Base {
 	public WebDriver driver;
 	public Properties properties;
+	LogReports log=new LogReports();
+	Helper helperobject = Helper.getInstance();
 	
-	/**
-	 * read property file 
-	 * load the property file
-	 * @param path
-	 * @return
-	 */
-    public Properties readProperties(String path)
-    {
-    	
-    	properties = new Properties();
-		try {
-			FileInputStream inputStream = new FileInputStream(path);
-			try {
-				properties.load(inputStream);
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-		return properties;
-    }
     
     /**
      * creation of chrome ,firefox, internet explorer driver 
      */
 	public void openBrowser() 
-	{
-		String path = Constants.PROJECT_BASE_PATH+"/resources/Config.properties";
-		readProperties(path);
-		String chromepath=Constants.PROJECT_BASE_PATH+properties.getProperty("ChromeDriverPath");
-		String firefoxpath=Constants.PROJECT_BASE_PATH+properties.getProperty("FirefoxDriverPath");
-		String internetexplorerpath=Constants.PROJECT_BASE_PATH+properties.getProperty("IEDriverPath");
-		if (properties.getProperty("browser").equalsIgnoreCase("chrome")) 
+	{ 
+		if (helperobject.getValue("browser").equalsIgnoreCase("chrome")) 
 		{
-			System.setProperty("webdriver.chrome.driver",chromepath);
+			System.setProperty("webdriver.chrome.driver",Constants.PROJECT_CHROMEPATH);
 			this.driver  = new ChromeDriver();
-			System.out.println(driver);
+			log.info(""+driver);
 		} 
-		else if (properties.getProperty("browser").equalsIgnoreCase("firefox")) 
+		else if (helperobject.getValue("browser").equalsIgnoreCase("firefox")) 
 		{
-			System.setProperty("webdriver.gecko.driver",firefoxpath);
+			System.setProperty("webdriver.gecko.driver",Constants.PROJECT_FIREFOXPATH);
 			driver = new FirefoxDriver();
+			log.info(""+driver);
 		}
 
-		else if (properties.getProperty("browser").equalsIgnoreCase("internetexplorer")) 
+		else if (helperobject.getValue("browser").equalsIgnoreCase("internetexplorer")) 
 		{
-			System.setProperty("webdriver.ie.driver",internetexplorerpath);
+			System.setProperty("webdriver.ie.driver",Constants.PROJECT_INTERNETEXPLORERPATH);
 			driver = new InternetExplorerDriver();
+			log.info(""+driver);
 		}
-		driver.get(properties.getProperty("url"));
+		driver.get(helperobject.getValue("url"));
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(Constants.PAGE_LODE_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT, TimeUnit.SECONDS);

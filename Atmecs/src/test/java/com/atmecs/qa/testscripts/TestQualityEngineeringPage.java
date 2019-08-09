@@ -28,7 +28,7 @@ public class TestQualityEngineeringPage extends Base{
 	@Test
 	public void testQualityEngineeringPageClick()
 	{
-		quality_engineering_page.Quality_Engineering_Menu(driver);
+		quality_engineering_page.QualityEngineeringMenu(driver);
 		
 	}
 	

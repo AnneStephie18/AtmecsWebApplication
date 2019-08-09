@@ -29,7 +29,7 @@ public class TestProductEngineeringPage extends Base{
 	public void testProductEngineeringClick()
 	{
 		
-		product_engineering_page.Product_Engineering_Menu(driver);
+		product_engineering_page.ProductEngineeringMenu(driver);
 	}
 	
 	/**

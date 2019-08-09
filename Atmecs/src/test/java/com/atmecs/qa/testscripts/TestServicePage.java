@@ -10,7 +10,9 @@ import com.atmecs.qa.testbase.Base;
  * @author Anne.Sivakumar
  *
  */
-public class TestServicePage extends Base {
+public class TestServicePage  extends Base
+{
+	
 	ServicePage servicepage= new ServicePage();
 	/**
 	 * open the browser 

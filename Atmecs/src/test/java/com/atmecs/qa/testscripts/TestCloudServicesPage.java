@@ -29,7 +29,7 @@ public class TestCloudServicesPage extends Base {
 	@Test
 	public void testCloudServicesPageClick()
 	{
-		cloud_services_page.cloud_Services_Menu(driver);
+		cloud_services_page.cloudServicesMenu(driver);
 	}
 	
 	/**
